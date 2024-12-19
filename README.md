@@ -93,14 +93,13 @@ This publication evaluates how shifting temperature metrics—such as growing de
 
 **Images from the Paper:**
 
-Yakima County, WA ![image](https://github.com/user-attachments/assets/e2bf4775-0aab-45f6-8ba2-d72093929184)
+**Figure 6: Yakima County, WA**  
+![image](https://github.com/user-attachments/assets/e2bf4775-0aab-45f6-8ba2-d72093929184)
 
-
-Climate metrics analyzed ![image](https://github.com/user-attachments/assets/d5512997-5f61-43fe-bcb9-0e492ad1362e)
-
+**Figure 7: Climate metrics analyzed**  
+![image](https://github.com/user-attachments/assets/d5512997-5f61-43fe-bcb9-0e492ad1362e)
 
 *(Ensure the `images` directory contains the referenced figure files.)*
-
 ---
 
 ## Contact
