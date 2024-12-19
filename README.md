@@ -1,6 +1,6 @@
 # Shawn Preston
 
-**[Email](mailto:shawnxpreston@gmail.com)** | **[GitHub](shawnatwsu)**
+**[Email](mailto:shawnxpreston@gmail.com)** | **[GitHub]([shawnatwsu](https://github.com/shawnatwsu))**
 
 ---
 
