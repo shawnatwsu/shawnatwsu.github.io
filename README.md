@@ -1,6 +1,6 @@
-# Your Name
+# Shawn Preston
 
-**[Email](mailto:YOUR_EMAIL)** | **[LinkedIn](YOUR_LINKEDIN_URL)** | **[GitHub](YOUR_GITHUB_PROFILE)**
+**[Email](mailto:shawnxpreston@gmail.com)** | **[GitHub](shawnatwsu)**
 
 ---
 
