@@ -104,7 +104,7 @@ This publication evaluates how shifting temperature metrics—such as growing de
 
 ## Contact
 
-You can reach me via [Email](mailto:shawn_preston@wsu.edu) or connect with me on [LinkedIn](YOUR_LINKEDIN_URL).
+You can reach me via [Email](mailto:shawnxpreston@wsu.edu)
 
 ---
 
