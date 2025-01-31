@@ -99,12 +99,11 @@ This publication evaluates how shifting temperature metrics—such as growing de
 **Figure 7: Climate metrics analyzed**  
 ![image](https://github.com/user-attachments/assets/d5512997-5f61-43fe-bcb9-0e492ad1362e)
 
-*(Ensure the `images` directory contains the referenced figure files.)*
 ---
 
 ## Contact
 
-You can reach me via [Email](mailto:shawnxpreston@wsu.edu)
+You can reach me via [Email](mailto:shawnxpreston@gmail.com)
 
 ---
 
