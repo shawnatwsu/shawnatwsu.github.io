@@ -4,7 +4,6 @@
 
 ---
 <link rel="stylesheet" href="style.css">
-<script src="dark-toggle.js"></script>
 
 <nav>
   <div>
