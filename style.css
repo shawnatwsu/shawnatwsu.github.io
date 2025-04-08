@@ -1,0 +1,17 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #2a7ae2;
+}
+
+a {
+  color: #d64a4a;
+}
+
+hr {
+  border: 1px solid #ccc;
+}
