@@ -36,7 +36,7 @@ I am a multidisciplinary environmental scientist with a strong focus on climate 
 - *Model Evaluation & GIS:* Evaluated the CESM2-LENS climate model against observed data and performed NDVI analyses using GIS tools. Presented findings at conferences (AGU, GCC) and contributed to manuscripts under revision.  
 - *Leadership & Communication:* Led discussions in the ERI group, published work in Environmental Research Letters, and engaged with stakeholders through presentations and literature reviews.
 
-**STEM Teacher / Earth & Planetary Knowledge Bowl Coach**, Sunshine Elite Education, Portland, OR (Nov 2021 - Present)  
+**STEM Teacher / Earth & Planetary Knowledge Bowl Coach**, Sunshine Elite Education, Portland, OR (Jan 2022 - Feb 2023)  
 - *Curriculum Development:* Designed an interdisciplinary STEM curriculum covering biology, chemistry, physics, and programming.  
 - *Mentorship & Coaching:* Guided teams to 2nd place in ACSL and Earth & Planetary Sciences competitions. Founded a Middle School Science Fair to foster scientific inquiry.
 
@@ -56,8 +56,8 @@ I am a multidisciplinary environmental scientist with a strong focus on climate 
 
 ## Skills
 
-- **Programming Languages:** Python, R  
-- **Frameworks/Tools:** ArcGIS Pro, Google Earth Engine, NCL, CDO, Cartopy, SciPy, Pandas, GeoPandas, Jupyter Notebook, Linux/Bash  
+- **Programming Languages:** Python, R, Google Earth Engine 
+- **Frameworks/Tools:** ArcGIS Pro, NCL, ENVI Classic, MATLAB, CDO, Cartopy, SciPy, Pandas, GeoPandas, Jupyter Notebook, Linux/Bash  
 - **Other Expertise:** Remote Sensing, Climate Data Analysis, High-Performance Computing (HPC), Scientific Writing, Statistical Modeling, GIScience
 
 ---
@@ -73,7 +73,7 @@ A gamified approach to environmental education developed during an Oregon State 
 - *Result:* Provided a fun, interactive tool to raise awareness of environmental issues among diverse audiences.
 
 ### Climate Metric Visualization Project  
-*(Private Repository)*  
+**[Repository Link](https://github.com/shawnatwsu/Projected-Changes-in-Climate-Conditions-Affecting-U.S.-Apple-Production-Using-Large-Ensembles)**  
 This project focused on analyzing CESM2-LENS climate model outputs alongside observational datasets to understand shifts in temperature-based metrics affecting U.S. apple production regions.
 
 - *Feature 1:* Automated data processing pipelines using Python, Xarray, and Rasterio.  
@@ -87,6 +87,7 @@ This project focused on analyzing CESM2-LENS climate model outputs alongside obs
 ### Changing climate risks for high-value tree fruit production across the United States  
 **Authors:** Preston, S., Rajagopalan, K., Yourek, M., Kalcsits, L., & Singh, D.  
 **Journal:** Environmental Research Letters, 2024, [Link to Paper](https://iopscience.iop.org/article/10.1088/1748-9326/ad90f4/meta)
+**[Repository Link](https://github.com/shawnatwsu/Changing-Climate-Risks-for-High-Value-Tree-Fruit-Production-across-the-United-States)**
 
 **Summary:**  
 This publication evaluates how shifting temperature metrics—such as growing degree days, chill portions, and extreme thresholds—influence the viability of apple production across the U.S. By integrating observational data and climate model projections, the work highlights regions most at risk from warming trends, offering valuable insights for growers, policymakers, and researchers focused on agricultural resilience and sustainability.
