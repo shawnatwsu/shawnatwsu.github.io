@@ -2,14 +2,16 @@
 
 Welcome to my portfolio of data science and environmental projects. These represent a mix of academic research, personal experiments, and collaborative efforts.
 
+🛰️ Satellite Data Projects
 ---
-
-## 🛰️ Satellite Data Projects
 
 ### VIIRS Nighttime Lights Analysis  
 Analyzed VIIRS Day-Night Band data to study energy use patterns and urban heat island intensity in U.S. cities.  
-**[GitHub Link](https://github.com/shawnatwsu/VIIRS-UHI-project)**
+**[GitHub Link](https://github.com/shawnatwsu/NOAA-PATHWAY-PROJECT-2025_UHI)**
 
+### Pacific Northwest March Heat
+Analyzed the Pacific Northwest maximum temperature for the March 25-26, 2025 anomalies using gridMET
+**[GitHub Link](https://github.com/shawnatwsu/MarchHeatPNW](https://github.com/shawnatwsu/MarchHeatPNW)**
 ---
 
 ## 🍎 Climate Impacts on Agriculture
