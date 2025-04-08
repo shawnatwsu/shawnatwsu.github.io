@@ -12,7 +12,13 @@
 
 ## About Me
 
-I am a multidisciplinary environmental scientist with a strong focus on climate data analysis, geospatial research, and remote sensing methodologies. My work bridges rigorous academic research with practical applications, supporting environmental monitoring, agricultural resilience, and decision-making. From processing large-scale satellite datasets to conducting advanced statistical and spatial analyses, I aim to provide actionable insights into how changing climatic conditions affect ecosystems, agriculture, and natural resources. I thrive in collaborative environments where cross-functional teams tackle challenges at the intersection of data, policy, and applied science. With experience in academia, federal agencies, and educational initiatives, I’m committed to advancing our understanding of climate impacts and fostering the next generation of scientific inquiry.
+Hi, I’m Shawn — a recent Environmental Science master’s graduate with a passion for using data, maps, and satellite imagery to understand our changing planet. I’ve worked with tools like Python, GIS, and remote sensing platforms to analyze climate impacts, from extreme heat to agricultural shifts. My background blends field experience (soil sampling at Mt. St. Helens) with computational work (building scripts and visualizations using climate models and observational data).
+
+Over the last few years, I’ve had the chance to contribute to research at NASA, NOAA, and Washington State University, working on projects that range from natural hazards to food resilience. I enjoy digging into big datasets, learning new tools, and collaborating with others who care about climate, science, and solutions.
+
+Now that I’ve wrapped up my graduate work, I’m looking to connect with others in the environmental science, climate tech, or geospatial space — whether it’s for a project, mentorship, or job opportunities. Let’s build something meaningful.
+
+
 
 ---
 
