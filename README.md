@@ -3,12 +3,13 @@
 **[Email](mailto:shawnxpreston@gmail.com)** | **[GitHub](https://github.com/shawnatwsu)** | **[Portfolio](portfolio.md)** |
 
 ---
+<link rel="stylesheet" href="style.css">
+
 ![Python](https://img.shields.io/badge/Python-3.8-blue)
 ![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-GIS-green)
 ![Climate Science](https://img.shields.io/badge/Climate-Data-orange)
 ![GEE](https://img.shields.io/badge/Google%20Earth%20Engine-Remote%20Sensing-brightgreen)
 ![NOAA](https://img.shields.io/badge/NOAA-Federal%20Research-blueviolet)
-<link rel="stylesheet" href="style.css">
 
 
 ## About Me
