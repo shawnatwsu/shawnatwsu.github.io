@@ -5,13 +5,6 @@
 ---
 <link rel="stylesheet" href="style.css">
 
-<nav>
-  <div>
-    <a href="index.md">Home</a>
-    <a href="portfolio.md">Portfolio</a>
-  </div>
-</nav>
-
 ![Python](https://img.shields.io/badge/Python-3.8-blue)
 ![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-GIS-green)
 ![Climate Science](https://img.shields.io/badge/Climate-Data-orange)
