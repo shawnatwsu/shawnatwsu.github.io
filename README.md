@@ -10,7 +10,6 @@
     <a href="index.md">Home</a>
     <a href="portfolio.md">Portfolio</a>
   </div>
-  <button class="toggle-dark" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
 </nav>
 
 ![Python](https://img.shields.io/badge/Python-3.8-blue)
