@@ -3,6 +3,10 @@
 **[Email](mailto:shawnxpreston@gmail.com)** | **[GitHub](https://github.com/shawnatwsu)** | **[Portfolio](portfolio.md)** |
 
 ---
+![Python](https://img.shields.io/badge/Python-3.8-blue)
+![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-GIS-green)
+
+
 
 ## About Me
 
