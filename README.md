@@ -78,13 +78,6 @@ Now that I’ve wrapped up my graduate work, I’m looking to connect with other
 
 ## Projects
 
-### Greenhouse-Invaders  
-**[Repository Link](https://github.com/shawnatwsu/Greenhouse-Invaders)**  
-A gamified approach to environmental education developed during an Oregon State University Hackathon. Built using Python and basic game libraries, it simulates environmental challenges and teaches sustainability concepts through interactive gameplay.
-
-- *Feature 1:* Implemented basic game mechanics to illustrate the impact of greenhouse gases.  
-- *Feature 2:* Integrated educational prompts that inform players of climate-related consequences.  
-- *Result:* Provided a fun, interactive tool to raise awareness of environmental issues among diverse audiences.
 
 ### Climate Metric Visualization Project  
 **[Repository Link](https://github.com/shawnatwsu/Projected-Changes-in-Climate-Conditions-Affecting-U.S.-Apple-Production-Using-Large-Ensembles)**  
@@ -93,6 +86,14 @@ This project focused on analyzing CESM2-LENS climate model outputs alongside obs
 - *Feature 1:* Automated data processing pipelines using Python, Xarray, and Rasterio.  
 - *Feature 2:* Created geospatial visualizations in ArcGIS and GEE to illustrate climate risks.  
 - *Result:* Informed stakeholders about future climate risks to high-value crops, contributing to research published in Environmental Research Letters.
+
+### Greenhouse-Invaders  
+**[Repository Link](https://github.com/shawnatwsu/Greenhouse-Invaders)**  
+A gamified approach to environmental education developed during an Oregon State University Hackathon. Built using Python and basic game libraries, it simulates environmental challenges and teaches sustainability concepts through interactive gameplay.
+
+- *Feature 1:* Implemented basic game mechanics to illustrate the impact of greenhouse gases.  
+- *Feature 2:* Integrated educational prompts that inform players of climate-related consequences.  
+- *Result:* Provided a fun, interactive tool to raise awareness of environmental issues among diverse audiences.
 
 ---
 
