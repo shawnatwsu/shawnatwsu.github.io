@@ -2,7 +2,7 @@
 
 Welcome to my portfolio of data science and environmental projects. These represent a mix of academic research, personal experiments, and collaborative efforts.
 
-🛰️ Satellite Data Projects
+##🛰️ Satellite Data Projects
 ---
 
 ### VIIRS Nighttime Lights Analysis  
