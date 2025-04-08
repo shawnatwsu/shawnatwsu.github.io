@@ -11,7 +11,7 @@ Analyzed VIIRS Day-Night Band data to study energy use patterns and urban heat i
 
 ### Pacific Northwest March Heat
 Analyzed the Pacific Northwest maximum temperature for the March 25-26, 2025 anomalies using gridMET
-**[GitHub Link](https://github.com/shawnatwsu/MarchHeatPNW](https://github.com/shawnatwsu/MarchHeatPNW)**
+**[GitHub Link](https://github.com/shawnatwsu/MarchHeatPNW)**
 ---
 
 ## 🍎 Climate Impacts on Agriculture
