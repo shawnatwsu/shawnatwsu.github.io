@@ -11,14 +11,12 @@ Analyzed VIIRS Day-Night Band data to study energy-use patterns and UHI intensit
   <embed
     src="/UHI_VIIRS.pdf"
     type="application/pdf"
-    width="200"
-    height="260"
+    width="600"
+    height="660"
     style="border: 1px solid #ccc;"
-  />
-</a>
 
 **[GitHub Repository](https://github.com/shawnatwsu/NOAA-PATHWAY-PROJECT-2025_UHI)**
-
+</a>
 
 ### Pacific Northwest March Heat
 Analyzed the Pacific Northwest maximum temperature for the March 25-26, 2025 anomalies using gridMET
