@@ -4,24 +4,16 @@ Welcome to my portfolio of data science and environmental projects. These repres
 
 ## 🛰️ Satellite Data Projects
 ---
+### VIIRS Nighttime Lights Analysis
+Analyzed VIIRS Day-Night Band data to study energy-use patterns and UHI intensity in U.S. cities.
 
-### VIIRS Nighttime Lights Analysis  
-Analyzed VIIRS Day-Night Band data to study energy-use patterns and UHI intensity in U.S. cities.  
-
-<!-- clickable, scaled-down PDF embed -->
-<a href="/UHI_VIIRS.pdf" target="_blank" style="display: inline-block;">
-  <object
-    data="/UHI_VIIRS.pdf"
-    type="application/pdf"
-    width="200"      <!-- change this to whatever preview width you like -->
-    height="260"     <!-- adjust height to match aspect ratio -->
+<a href="/UHI_VIIRS.pdf" target="_blank" style="float: right; margin: 0 0 1rem 1rem;">
+  <iframe
+    src="/UHI_VIIRS.pdf"
+    width="200"
+    height="260"
     style="border: 1px solid #ccc;"
-  >
-    <p>
-      Your browser doesn’t support inline PDFs.  
-      <a href="/UHI_VIIRS.pdf" target="_blank">Download the poster</a>.
-    </p>
-  </object>
+  ></iframe>
 </a>
 
 **[GitHub Repository](https://github.com/shawnatwsu/NOAA-PATHWAY-PROJECT-2025_UHI)**
