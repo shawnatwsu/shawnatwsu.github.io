@@ -13,7 +13,7 @@ Analyzed VIIRS Day-Night Band data to study energy-use patterns and UHI intensit
     alt="VIIRS Nighttime Lights Poster"
     style="
       float: right;
-      width: 300px;            /* adjust this for your desired preview size */
+      width: 200px;            /* adjust this for your desired preview size */
       margin: -6rem -4rem 1rem 1rem;   /* top | right | bottom | left */
       border: 1px solid #ccc;
     "
