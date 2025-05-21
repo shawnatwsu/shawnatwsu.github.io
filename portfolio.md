@@ -60,6 +60,7 @@ Using Sentinel-2 NDVI and VIIRS fire detections, I mapped burn severity (NBR dif
 **[View Earth Engine Script (aq.js)]([https://github.com/shawnatwsu/airquality/blob/main/aq.js](https://github.com/shawnatwsu/airquality/blob/main/aq_SouthCarolina))**  
 
 ---
+## Gridded Data Projects
 
 ### Pacific Northwest March Heat
 Analyzed the Pacific Northwest maximum temperature for the March 25-26, 2025 anomalies using gridMET
