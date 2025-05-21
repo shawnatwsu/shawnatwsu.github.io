@@ -62,7 +62,7 @@ and vegetation change across South Carolina’s early-2025 wildfires.
 
 ---
 ## 🌐 Gridded Data Projects
-
+---
 ### Pacific Northwest March Heat
 Analyzed the Pacific Northwest maximum temperature for the March 25-26, 2025 anomalies using gridMET
 **[GitHub Repository](https://github.com/shawnatwsu/MarchHeatPNW)**
