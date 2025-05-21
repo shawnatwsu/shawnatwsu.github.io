@@ -26,9 +26,9 @@ Analyzed VIIRS Day-Night Band data to study energy-use patterns and UHI intensit
 A 2×3 panel showing (A) Pre-Event Radiance, (B) Event Radiance, (C) Radiance Difference,  
 (D) Poverty Rate, (E) Bivariate Diff vs. Poverty, and (F) Houston inset.
 
-<a href="/assets/images/texas_storm_panel.png" target="_blank">
+<a href="/texas_storm_panel.png" target="_blank">
   <img
-    src="/assets/images/texas_storm_panel.png"
+    src="/texas_storm_panel.png"
     alt="Texas Storm Radiance & Poverty Panel"
     style="
       float: right;
