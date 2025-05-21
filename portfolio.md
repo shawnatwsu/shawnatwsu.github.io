@@ -22,7 +22,24 @@ Analyzed VIIRS Day-Night Band data to study energy-use patterns and UHI intensit
 
 **[GitHub Repository](https://github.com/shawnatwsu/NOAA-PATHWAY-PROJECT-2025_UHI)**
 
+### Texas Winter Storm Radiance & Poverty Analysis  
+A 2×3 panel showing (A) Pre-Event Radiance, (B) Event Radiance, (C) Radiance Difference,  
+(D) Poverty Rate, (E) Bivariate Diff vs. Poverty, and (F) Houston inset.
 
+<a href="/assets/images/texas_storm_panel.png" target="_blank">
+  <img
+    src="/assets/images/texas_storm_panel.png"
+    alt="Texas Storm Radiance & Poverty Panel"
+    style="
+      float: right;
+      width: 300px;            /* preview width—you can tweak this */
+      margin: 3rem -4rem 1rem 1rem;   /* top | right | bottom | left */
+      border: 1px solid #ccc;
+    "
+  />
+</a>
+
+**[GitHub Repository](https://github.com/shawnatwsu/2021_Texas_Storm)**
 
 
 
