@@ -12,7 +12,7 @@ Analyzed VIIRS Day-Night Band data to study energy-use patterns and UHI intensit
   type="application/pdf"
   width="500"
   height="450"
-  style="float: right; margin: 0 2 1rem 1rem; border: 1px solid #ccc;"
+  style="float: right; margin: 2 -4 1rem 1rem; border: 1px solid #ccc;"
 />
 
 **[GitHub Repository](https://github.com/shawnatwsu/NOAA-PATHWAY-PROJECT-2025_UHI)**
