@@ -56,7 +56,7 @@ Using Sentinel-2 NDVI and VIIRS fire detections, I mapped burn severity (NBR dif
   />
 </a>
 
-**[View Earth Engine Script (aq.js)](https://github.com/shawnatwsu/airquality/blob/main/aq.js)**  
+**[View Earth Engine Script (aq.js)]([https://github.com/shawnatwsu/airquality/blob/main/aq.js](https://github.com/shawnatwsu/airquality/blob/main/aq_SouthCarolina))**  
 *(Click the image to open the full-size panel.)*
 
 ---
