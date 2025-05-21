@@ -7,7 +7,9 @@ Welcome to my portfolio of data science and environmental projects. These repres
 
 ### VIIRS Nighttime Lights Analysis  
 Analyzed VIIRS Day-Night Band data to study energy-use patterns and urban heat-island intensity in U.S. cities.  
-**[📄 View the full poster (PDF)](/UHI_VIIRS.pdf)**  
+
+[![Click to view full poster](/assets/images/UHI_VIIRS-thumb.png)](/UHI_VIIRS.pdf)
+
 **[GitHub Repository](https://github.com/shawnatwsu/NOAA-PATHWAY-PROJECT-2025_UHI)**
 
 
