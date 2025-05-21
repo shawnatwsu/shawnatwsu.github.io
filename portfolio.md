@@ -32,8 +32,8 @@ A 2×3 panel showing (A) Pre-Event Radiance, (B) Event Radiance, (C) Radiance Di
     alt="Texas Storm Radiance & Poverty Panel"
     style="
       float: right;
-      width: 300px;            /* preview width—you can tweak this */
-      margin: 3rem -4rem 1rem 1rem;   /* top | right | bottom | left */
+      width: 200px;            /* preview width—you can tweak this */
+      margin: -6rem -4rem 1rem 1rem;   /* top | right | bottom | left */
       border: 1px solid #ccc;
     "
   />
