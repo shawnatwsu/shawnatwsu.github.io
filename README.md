@@ -14,11 +14,19 @@
 
 ## About Me
 
-Hi, I’m Shawn — a recent Environmental Science master’s graduate with a passion for using data, maps, and satellite imagery to understand our changing planet. I’ve worked with tools like Python, GIS, and remote sensing platforms to analyze climate impacts, from extreme heat to agricultural shifts. My background blends field experience (soil sampling at Mt. St. Helens) with computational work (building scripts and visualizations using climate models and observational data).
+Hi, I’m Shawn Preston — a climate, remote sensing, and GIS scientist with an M.S. in Environmental Science and a passion for leveraging data, maps, and satellite imagery to understand our changing planet. I’ve worked across diverse projects at NASA, NOAA, USGS, and Washington State University, analyzing everything from extreme heat and stormwater events to wildfire progression and agricultural resilience.
 
-Over the last few years, I’ve had the chance to contribute to research at NASA, NOAA, and Washington State University, working on projects that range from natural hazards to food resilience. I enjoy digging into big datasets, learning new tools, and collaborating with others who care about climate, science, and solutions.
+My toolkit spans:
 
-Now that I’ve wrapped up my graduate work, I’m looking to connect with others in the environmental science, climate tech, or geospatial space — whether it’s for a project, mentorship, or job opportunities. Let’s build something meaningful.
+Fieldwork: Soil sampling on Mount St. Helens, ecological surveys, and in‑situ measurements.
+
+Computational Analysis: Python (xarray, pandas, statsmodels), R, HPC pipelines, and version‑controlled workflows.
+
+Geospatial Science: ArcGIS Pro, QGIS, Cartopy, Google Earth Engine, and large‑scale model outputs like CESM2-LE.
+
+I thrive on tackling big datasets, building interactive visualizations, and translating complex findings into clear, actionable insights. Whether it’s mapping climate attribution, quantifying hazard impacts, or crafting story‑driven narratives, I’m driven by the intersection of science and solutions.
+
+Now that I’ve wrapped up my graduate work, I’m eager to collaborate with climate tech innovators, environmental organizations, and fellow researchers. Let’s connect and build something meaningful.
 
 
 
