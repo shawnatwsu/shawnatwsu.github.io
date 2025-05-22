@@ -42,7 +42,7 @@ A 2×3 panel showing (A) Pre-Event Radiance, (B) Event Radiance, (C) Radiance Di
 **[GitHub Repository](https://github.com/shawnatwsu/2021_Texas_Storm)**
 
 ### Burn Severity & Vegetation Loss in South Carolina (Feb–Apr 2025)  
-Using Sentinel-2 NDVI and VIIRS fire detections, burn severity (NBR difference)␣␣
+Using Sentinel-2 NDVI and VIIRS fire detections, burn severity (NBR difference)<br>
 and vegetation change across South Carolina’s early-2025 wildfires.
 
 <a href="/map1-1.png" target="_blank">
