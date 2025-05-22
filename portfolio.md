@@ -92,7 +92,20 @@ See how climate metrics apples use during growth have been impacted over the las
 
 
 ### Climate Metrics and Apple Production  
-See how temperature shifts affect apple-growing regions across the U.S.  
+See how temperature shifts affect apple-growing regions across the U.S. using the CESM2-LE 
+<a href="/combinedpanel6.png" target="_blank">
+  <img
+    src="/combinedpanel6.png"
+    alt="CESM2-LE Figures"
+    style="
+      float: right;
+      width: 200px;            /* preview width—you can tweak this */
+      margin: -5rem -4rem 1rem 1rem;   /* top | right | bottom | left */
+      border: 1px solid #ccc;
+    "
+  />
+</a>
+
 **[GitHub Repository](https://github.com/shawnatwsu/Projected-Changes-in-Climate-Conditions-Affecting-U.S.-Apple-Production-Using-Large-Ensembles)**
 
 ---
