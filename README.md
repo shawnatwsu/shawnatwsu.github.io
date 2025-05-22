@@ -9,11 +9,9 @@
 ![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-GIS-green)
 ![GEE](https://img.shields.io/badge/Google%20Earth%20Engine-Remote%20Sensing-brightgreen)
 ![NOAA](https://img.shields.io/badge/NOAA-Federal%20Research-blueviolet)
-
 ![Git](https://img.shields.io/badge/Git-%3E%3D2.0-black)
 ![GitHub](https://img.shields.io/badge/GitHub-%F0%9F%91%8B-181717)
 ![Unix](https://img.shields.io/badge/Unix-Command%20Line-lightgrey)
-
 ![ArcGIS_Pro](https://img.shields.io/badge/ArcGIS%20Pro-GIS-yellowgreen)
 ![SQL](https://img.shields.io/badge/SQL-Querying-lightgrey)
 
