@@ -77,7 +77,7 @@ Now that I’ve wrapped up my graduate work, I’m looking to connect with other
 ---
 
 ## Projects
-# A more extensive list of projects can be found in my Portfolio
+### A more extensive list of projects can be found in my Portfolio
 
 ### Climate Metric Visualization Project  
 **[Repository Link](https://github.com/shawnatwsu/Projected-Changes-in-Climate-Conditions-Affecting-U.S.-Apple-Production-Using-Large-Ensembles)**  
