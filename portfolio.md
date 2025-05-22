@@ -1,166 +1,20 @@
-# Portfolio
-
-Welcome to my portfolio of data science and environmental projects. These represent a mix of academic research, personal experiments, and collaborative efforts.
-
-## 🛰️ Satellite Data Projects
----
-### VIIRS Nighttime Lights Analysis  
-Analyzed VIIRS Day-Night Band data to study energy-use patterns and UHI intensity in U.S. cities.
-
-<a href="/UHI_VIIRS.pdf" target="_blank">
-  <img
-    src="/UHI_VIIRS.png"
-    alt="VIIRS Nighttime Lights Poster"
-    style="
-      float: right;
-      width: 200px;            /* adjust this for your desired preview size */
-      margin: -6rem -4rem 1rem 1rem;   /* top | right | bottom | left */
-      border: 1px solid #ccc;
-    "
-  />
-</a>
-
-**[GitHub Repository](https://github.com/shawnatwsu/NOAA-PATHWAY-PROJECT-2025_UHI)**
-
-### Texas Winter Storm Radiance & Poverty Analysis  
-A 2×3 panel showing (A) Pre-Event Radiance, (B) Event Radiance, (C) Radiance Difference,  
-(D) Poverty Rate, (E) Bivariate Diff vs. Poverty, and (F) Houston inset.
-
-<a href="/texas_storm_panel.png" target="_blank">
-  <img
-    src="/texas_storm_panel.png"
-    alt="Texas Storm Radiance & Poverty Panel"
-    style="
-      float: right;
-      width: 200px;            /* preview width—you can tweak this */
-      margin: -6rem -4rem 1rem 1rem;   /* top | right | bottom | left */
-      border: 1px solid #ccc;
-    "
-  />
-</a>
-
-**[GitHub Repository](https://github.com/shawnatwsu/2021_Texas_Storm)**
-
-### Burn Severity & Vegetation Loss in South Carolina (Feb–Apr 2025)  
-Using Sentinel-2 NDVI and VIIRS fire detections, burn severity (NBR difference)<br>
-and vegetation change across South Carolina’s early-2025 wildfires.
-
-<a href="/map1-1.png" target="_blank">
-  <img
-    src="/map1-1.png"
-    alt="SC Burn Severity & NDVI Loss Panel"
-    style="
-      float: right;
-      width: 200px;            /* preview width – tweak as needed */
-      margin: -7rem -4rem 1rem 1rem;   /* top | right | bottom | left */
-      border: 1px solid #ccc;
-    "
-  />
-</a>
-
-**[View Earth Engine Script (aq.js)]([https://github.com/shawnatwsu/airquality/blob/main/aq.js](https://github.com/shawnatwsu/airquality/blob/main/aq_SouthCarolina))**  
-
----
-## 🌐 Gridded Data Projects
----
-### Pacific Northwest March Heat
-Analyzed the Pacific Northwest maximum temperature for the March 25-26, 2025 anomalies using gridMET
-<a href="/marchpnw.png" target="_blank">
-  <img
-    src="/marchpnw.png"
-    alt="March 25-26 PNW Heat"
-    style="
-      float: right;
-      width: 200px;            /* preview width—you can tweak this */
-      margin: -5rem -4rem 1rem 1rem;   /* top | right | bottom | left */
-      border: 1px solid #ccc;
-    "
-  />
-</a>
-
-**[GitHub Repository](https://github.com/shawnatwsu/MarchHeatPNW)**
-
-### Earth Day 2025  
-Analyzed the annual Earth Day anomaly from 1949 through 2025.  
-
-<div style="display: flex; gap: 1rem; margin: 1rem 0;">
-  <a href="/earthday_apr22_us_globe_anomaly.gif" target="_blank">
-    <img
-      src="/earthday_apr22_us_globe_anomaly.gif"
-      alt="US Globe Anomaly on April 22"
-      style="width: 300px; border: 1px solid #ccc;"
-    />
-  </a>
-  <a href="/earthday_apr22_us_globe_fahrenheit.gif" target="_blank">
-    <img
-      src="/earthday_apr22_us_globe_fahrenheit.gif"
-      alt="US Globe Fahrenheit on April 22"
-      style="width: 300px; border: 1px solid #ccc;"
-    />
-  </a>
-</div>
-
-**[GitHub Repository](https://github.com/shawnatwsu/earthday2025/tree/main)**
-
-
-<hr style="margin: 3rem 0;">
-
-## 🍎 Climate Impacts on Agriculture
-
-
-### Climate Metrics and Apple Production  
-See how climate metrics apples use during growth have been impacted over the last 40 years <br>
-in the top 3 apple producing states (Published 2024)
-<a href="/combined_panel_clean.png" target="_blank">
-  <img
-    src="/combined_panel_clean.png"
-    alt="Published Preston et al. 2024 Paper Figures"
-    style="
-      float: right;
-      width: 200px;            /* preview width—you can tweak this */
-      margin: -5rem -4rem 1rem 1rem;   /* top | right | bottom | left */
-      border: 1px solid #ccc;
-    "
-  />
-</a>
-
-**[GitHub Repository](https://github.com/shawnatwsu/Projected-Changes-in-Climate-Conditions-Affecting-U.S.-Apple-Production-Using-Large-Ensembles](https://github.com/shawnatwsu/Changing-Climate-Risks-for-High-Value-Tree-Fruit-Production-across-the-United-States))**
-
-
-### Climate Metrics and Apple Production  
-See how temperature shifts affect apple-growing regions across the U.S. using the CESM2-LE 
-<a href="/combined_panel_6.png" target="_blank">
-  <img
-    src="/combined_panel_6.png"
-    alt="CESM2-LE Figures"
-    style="
-      float: right;
-      width: 200px;            /* preview width—you can tweak this */
-      margin: -5rem -4rem 1rem 1rem;   /* top | right | bottom | left */
-      border: 1px solid #ccc;
-    "
-  />
-</a>
-
-**[GitHub Repository](https://github.com/shawnatwsu/Projected-Changes-in-Climate-Conditions-Affecting-U.S.-Apple-Production-Using-Large-Ensembles)**
-
----
-
-## 🕹️ Gamified Environmental Education
-
-### Greenhouse-Invaders  
-An educational game highlighting the impacts of greenhouse gases.  
-<a href="/greenhouse_invaders.gif" target="_blank">
-  <img
-    src="/greenhouse_invaders.gif"
-    alt="Greenhouse Invaders Game"
-    style="
-      float: right;
-      width: 200px;            /* preview width—you can tweak this */
-      margin: -5rem -4rem 1rem 1rem;   /* top | right | bottom | left */
-      border: 1px solid #ccc;
-    "
-  />
-</a>
-
-**[GitHub Repository](https://github.com/shawnatwsu/Greenhouse-Invaders)**
+🚀 Featured Projects
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+🛰️ VIIRS Nighttime Lights: Urban Heat Islands
+<div style="max-width: 320px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); padding: 1rem; transition: transform 0.3s; background-color: #f8f9fa;"> <a href="/UHI_VIIRS.pdf" target="_blank"> <img src="/UHI_VIIRS.png" style="width:100%; border-radius: 8px;"> </a> <h4 style="margin-top: 0.5rem;">UHI Intensity via VIIRS</h4> <p style="font-size:14px;">Exploring energy-use patterns in U.S. cities through nighttime satellite imagery.</p> <a href="https://github.com/shawnatwsu/NOAA-PATHWAY-PROJECT-2025_UHI" target="_blank" style="text-decoration:none;color:white;background-color:#007bff;padding:6px 12px;border-radius:4px;font-size:13px;">GitHub Repo ↗</a> </div>
+🌨️ Texas Winter Storm & Socioeconomics
+<div style="max-width: 320px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); padding: 1rem; transition: transform 0.3s; background-color: #f8f9fa;"> <a href="/texas_storm_panel.png" target="_blank"> <img src="/texas_storm_panel.png" style="width:100%; border-radius: 8px;"> </a> <h4 style="margin-top: 0.5rem;">Storm Radiance & Poverty</h4> <p style="font-size:14px;">Assessing storm impacts on energy and socioeconomics during Texas' 2021 freeze event.</p> <a href="https://github.com/shawnatwsu/2021_Texas_Storm" target="_blank" style="text-decoration:none;color:white;background-color:#007bff;padding:6px 12px;border-radius:4px;font-size:13px;">GitHub Repo ↗</a> </div>
+🔥 South Carolina Wildfires Analysis (2025)
+<div style="max-width: 320px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); padding: 1rem; transition: transform 0.3s; background-color: #f8f9fa;"> <a href="/map1-1.png" target="_blank"> <img src="/map1-1.png" style="width:100%; border-radius: 8px;"> </a> <h4 style="margin-top: 0.5rem;">Burn Severity Mapping</h4> <p style="font-size:14px;">Mapping wildfire severity and vegetation loss using Sentinel-2 NDVI.</p> <a href="https://github.com/shawnatwsu/airquality/blob/main/aq_SouthCarolina" target="_blank" style="text-decoration:none;color:white;background-color:#007bff;padding:6px 12px;border-radius:4px;font-size:13px;">GEE Script ↗</a> </div> </div>
+🌐 Climate Data Analysis
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+🌡️ Pacific Northwest Heat Anomalies
+<div style="max-width: 320px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); padding: 1rem; transition: transform 0.3s; background-color: #f8f9fa;"> <a href="/marchpnw.png" target="_blank"> <img src="/marchpnw.png" style="width:100%; border-radius: 8px;"> </a> <h4 style="margin-top: 0.5rem;">March 2025 Heatwave</h4> <p style="font-size:14px;">Analyzed gridMET temperature anomalies for extreme heat events in the PNW.</p> <a href="https://github.com/shawnatwsu/MarchHeatPNW" target="_blank" style="text-decoration:none;color:white;background-color:#007bff;padding:6px 12px;border-radius:4px;font-size:13px;">GitHub Repo ↗</a> </div>
+🌎 Earth Day 2025 Climate Animation
+<div style="max-width: 320px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); padding: 1rem; transition: transform 0.3s; background-color: #f8f9fa;"> <a href="/earthday_apr22_us_globe_anomaly.gif" target="_blank"> <img src="/earthday_apr22_us_globe_anomaly.gif" style="width:100%; border-radius: 8px;"> </a> <h4 style="margin-top: 0.5rem;">Annual Earth Day Anomalies</h4> <p style="font-size:14px;">Animated analysis of global temperature anomalies from 1949–2025.</p> <a href="https://github.com/shawnatwsu/earthday2025/tree/main" target="_blank" style="text-decoration:none;color:white;background-color:#007bff;padding:6px 12px;border-radius:4px;font-size:13px;">GitHub Repo ↗</a> </div> </div>
+🍏 Agriculture & Climate Change
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+📈 Climate Impacts on Apple Production (Published)
+<div style="max-width: 320px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); padding: 1rem; transition: transform 0.3s; background-color: #f8f9fa;"> <a href="/combined_panel_clean.png" target="_blank"> <img src="/combined_panel_clean.png" style="width:100%; border-radius: 8px;"> </a> <h4 style="margin-top: 0.5rem;">Preston et al., 2024</h4> <p style="font-size:14px;">Analyzed historical climate metrics affecting top apple-producing states.</p> <a href="https://github.com/shawnatwsu/Changing-Climate-Risks-for-High-Value-Tree-Fruit-Production-across-the-United-States" target="_blank" style="text-decoration:none;color:white;background-color:#007bff;padding:6px 12px;border-radius:4px;font-size:13px;">GitHub Repo ↗</a> </div> </div>
+🎮 Environmental Education Games
+<div style="text-align:center; margin-top:1rem;"> <a href="/greenhouse_invaders.gif" target="_blank"> <img src="/greenhouse_invaders.gif" style="width:70%;border-radius:8px;"> </a> <p style="margin-top:1rem;">Interactive game teaching about greenhouse gas impacts.</p> <a href="https://github.com/shawnatwsu/Greenhouse-Invaders" target="_blank" style="text-decoration:none;color:white;background-color:#007bff;padding:6px 12px;border-radius:4px;">GitHub Repo ↗</a> </div>
