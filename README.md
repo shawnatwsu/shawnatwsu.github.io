@@ -40,7 +40,7 @@ Now that I’ve wrapped up my graduate work, I’m looking to connect with other
 
 ## Professional Experience
 
-**Physical Scientist (Student Trainee)**, National Oceanic and Atmospheric Administration (NOAA), Greenbelt, MD (July 2024 - Present)  
+**Physical Scientist (Student Trainee)**, National Oceanic and Atmospheric Administration (NOAA), Greenbelt, MD (July 2024 - February 2025 (Probationary Employee Presidentially Fired))  
 - *Data Analysis & Visualization:* Utilize NOAA JPSS satellite data, Python scripts, ArcGIS Pro, and Google Earth Engine to process and visualize large geospatial and climatic datasets related to extreme weather events and natural hazards.  
 - *Project Management:* Initiate and manage projects from conception to completion, conduct literature reviews, and develop methodologies that support NOAA’s environmental monitoring and risk mitigation goals.  
 - *Collaboration & Communication:* Coordinate with interdisciplinary teams, provide regular updates to stakeholders, and prepare to present findings at the Satellite Book Club Seminar and multiple conferences in 2025.
@@ -70,14 +70,14 @@ Now that I’ve wrapped up my graduate work, I’m looking to connect with other
 
 ## Skills
 
-- **Programming Languages:** Python, R, Google Earth Engine 
+- **Programming Languages:** Python, R, Google Earth Engine, JavaScript
 - **Frameworks/Tools:** ArcGIS Pro, NCL, ENVI Classic, MATLAB, CDO, Cartopy, SciPy, Pandas, GeoPandas, Jupyter Notebook, Linux/Bash  
 - **Other Expertise:** Remote Sensing, Climate Data Analysis, High-Performance Computing (HPC), Scientific Writing, Statistical Modeling, GIScience
 
 ---
 
 ## Projects
-
+# A more extensive list of projects can be found in my Portfolio
 
 ### Climate Metric Visualization Project  
 **[Repository Link](https://github.com/shawnatwsu/Projected-Changes-in-Climate-Conditions-Affecting-U.S.-Apple-Production-Using-Large-Ensembles)**  
@@ -123,4 +123,4 @@ You can reach me via [Email](mailto:shawnxpreston@gmail.com)
 
 ---
 
-**Last updated:** December 2024
+**Last updated:** May 2025
