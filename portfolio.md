@@ -80,23 +80,27 @@ Analyzed the Pacific Northwest maximum temperature for the March 25-26, 2025 ano
 
 **[GitHub Repository](https://github.com/shawnatwsu/MarchHeatPNW)**
 
-### Earth Day 2025
-Analyzed the Annual Earth Day for every year from 1949
-<a href="/marchpnw.png" target="_blank">
-  <img
-    src="/marchpnw.png"
-    alt="March 25-26 PNW Heat"
-    style="
-      float: right;
-      width: 200px;            /* preview width—you can tweak this */
-      margin: -5rem -4rem 1rem 1rem;   /* top | right | bottom | left */
-      border: 1px solid #ccc;
-    "
-  />
-</a>
+### Earth Day 2025  
+Analyzed the annual Earth Day anomaly from 1949 through 2025.  
+
+<div style="display: flex; gap: 1rem; margin: 1rem 0;">
+  <a href="/earthday_apr22_us_globe_anomaly.gif" target="_blank">
+    <img
+      src="/earthday_apr22_us_globe_anomaly.gif"
+      alt="US Globe Anomaly on April 22"
+      style="width: 300px; border: 1px solid #ccc;"
+    />
+  </a>
+  <a href="/earthday_apr22_us_globe_fahrenheit.gif" target="_blank">
+    <img
+      src="/earthday_apr22_us_globe_fahrenheit.gif"
+      alt="US Globe Fahrenheit on April 22"
+      style="width: 300px; border: 1px solid #ccc;"
+    />
+  </a>
+</div>
 
 **[GitHub Repository](https://github.com/shawnatwsu/earthday2025/tree/main)**
-
 
 
 <hr style="margin: 3rem 0;">
