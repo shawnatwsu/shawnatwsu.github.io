@@ -14,7 +14,7 @@
 
 ## About Me
 
-Hi, I’m Shawn Preston — a climate, remote sensing, and GIS scientist with an M.S. in Environmental Science and a passion for leveraging data, maps, and satellite imagery to understand our changing planet. I’ve worked across diverse projects at NASA, NOAA, USGS, and Washington State University, analyzing everything from extreme heat and stormwater events to wildfire progression and agricultural resilience.
+Hi, I’m <b>Shawn Preston</b> — a climate, remote sensing, and GIS scientist with an M.S. in Environmental Science and a passion for leveraging data, maps, and satellite imagery to understand our changing planet. I’ve worked across diverse projects at <b>NASA, NOAA, USGS, and Washington State University</b>, analyzing everything from extreme heat and stormwater events to wildfire progression and agricultural resilience.
 
 
 
