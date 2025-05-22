@@ -87,7 +87,8 @@ Analyzed the Pacific Northwest maximum temperature for the March 25-26, 2025 ano
 
 
 ### Climate Metrics and Apple Production  
-See how climate metrics apples use during growth have been impacted over the last 40 years in the top 3 apple producing states (Published 2024)
+See how climate metrics apples use during growth have been impacted over the last 40 years <br>
+in the top 3 apple producing states (Published 2024)
 <a href="/combined_panel_clean.png" target="_blank">
   <img
     src="/combined_panel_clean.png"
