@@ -7,12 +7,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8-blue)
 ![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-GIS-green)
-![Climate Science](https://img.shields.io/badge/Climate-Data-orange)
 ![GEE](https://img.shields.io/badge/Google%20Earth%20Engine-Remote%20Sensing-brightgreen)
 ![NOAA](https://img.shields.io/badge/NOAA-Federal%20Research-blueviolet)
-![xarray](https://img.shields.io/badge/xarray-%3E%3D0.16-blue)
-![pandas](https://img.shields.io/badge/pandas-%3E%3D1.0-lightblue)
-![Cartopy](https://img.shields.io/badge/Cartopy-%3E%3D0.17-blueviolet)
 
 ![Git](https://img.shields.io/badge/Git-%3E%3D2.0-black)
 ![GitHub](https://img.shields.io/badge/GitHub-%F0%9F%91%8B-181717)
@@ -20,11 +16,6 @@
 
 ![ArcGIS_Pro](https://img.shields.io/badge/ArcGIS%20Pro-GIS-yellowgreen)
 ![SQL](https://img.shields.io/badge/SQL-Querying-lightgrey)
-
-![HPC](https://img.shields.io/badge/HPC-Supercomputing-blue)
-![CDO](https://img.shields.io/badge/CDO-Data%20Operators-red)
-![NCL](https://img.shields.io/badge/NCL-Visualization-orange)
-
 
 ## About Me
 
