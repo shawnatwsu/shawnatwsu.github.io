@@ -65,7 +65,21 @@ and vegetation change across South Carolina’s early-2025 wildfires.
 ---
 ### Pacific Northwest March Heat
 Analyzed the Pacific Northwest maximum temperature for the March 25-26, 2025 anomalies using gridMET
+<a href="/marchpnw.png" target="_blank">
+  <img
+    src="/marchpnw.png"
+    alt="March 25-26 PNW Heat"
+    style="
+      float: right;
+      width: 200px;            /* preview width—you can tweak this */
+      margin: -5rem -4rem 1rem 1rem;   /* top | right | bottom | left */
+      border: 1px solid #ccc;
+    "
+  />
+</a>
+
 **[GitHub Repository](https://github.com/shawnatwsu/MarchHeatPNW)**
+
 
 ---
 
