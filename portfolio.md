@@ -1,20 +1,68 @@
-🚀 Featured Projects
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-🛰️ VIIRS Nighttime Lights: Urban Heat Islands
-<div style="max-width: 320px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); padding: 1rem; transition: transform 0.3s; background-color: #f8f9fa;"> <a href="/UHI_VIIRS.pdf" target="_blank"> <img src="/UHI_VIIRS.png" style="width:100%; border-radius: 8px;"> </a> <h4 style="margin-top: 0.5rem;">UHI Intensity via VIIRS</h4> <p style="font-size:14px;">Exploring energy-use patterns in U.S. cities through nighttime satellite imagery.</p> <a href="https://github.com/shawnatwsu/NOAA-PATHWAY-PROJECT-2025_UHI" target="_blank" style="text-decoration:none;color:white;background-color:#007bff;padding:6px 12px;border-radius:4px;font-size:13px;">GitHub Repo ↗</a> </div>
-🌨️ Texas Winter Storm & Socioeconomics
-<div style="max-width: 320px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); padding: 1rem; transition: transform 0.3s; background-color: #f8f9fa;"> <a href="/texas_storm_panel.png" target="_blank"> <img src="/texas_storm_panel.png" style="width:100%; border-radius: 8px;"> </a> <h4 style="margin-top: 0.5rem;">Storm Radiance & Poverty</h4> <p style="font-size:14px;">Assessing storm impacts on energy and socioeconomics during Texas' 2021 freeze event.</p> <a href="https://github.com/shawnatwsu/2021_Texas_Storm" target="_blank" style="text-decoration:none;color:white;background-color:#007bff;padding:6px 12px;border-radius:4px;font-size:13px;">GitHub Repo ↗</a> </div>
-🔥 South Carolina Wildfires Analysis (2025)
-<div style="max-width: 320px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); padding: 1rem; transition: transform 0.3s; background-color: #f8f9fa;"> <a href="/map1-1.png" target="_blank"> <img src="/map1-1.png" style="width:100%; border-radius: 8px;"> </a> <h4 style="margin-top: 0.5rem;">Burn Severity Mapping</h4> <p style="font-size:14px;">Mapping wildfire severity and vegetation loss using Sentinel-2 NDVI.</p> <a href="https://github.com/shawnatwsu/airquality/blob/main/aq_SouthCarolina" target="_blank" style="text-decoration:none;color:white;background-color:#007bff;padding:6px 12px;border-radius:4px;font-size:13px;">GEE Script ↗</a> </div> </div>
-🌐 Climate Data Analysis
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-🌡️ Pacific Northwest Heat Anomalies
-<div style="max-width: 320px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); padding: 1rem; transition: transform 0.3s; background-color: #f8f9fa;"> <a href="/marchpnw.png" target="_blank"> <img src="/marchpnw.png" style="width:100%; border-radius: 8px;"> </a> <h4 style="margin-top: 0.5rem;">March 2025 Heatwave</h4> <p style="font-size:14px;">Analyzed gridMET temperature anomalies for extreme heat events in the PNW.</p> <a href="https://github.com/shawnatwsu/MarchHeatPNW" target="_blank" style="text-decoration:none;color:white;background-color:#007bff;padding:6px 12px;border-radius:4px;font-size:13px;">GitHub Repo ↗</a> </div>
-🌎 Earth Day 2025 Climate Animation
-<div style="max-width: 320px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); padding: 1rem; transition: transform 0.3s; background-color: #f8f9fa;"> <a href="/earthday_apr22_us_globe_anomaly.gif" target="_blank"> <img src="/earthday_apr22_us_globe_anomaly.gif" style="width:100%; border-radius: 8px;"> </a> <h4 style="margin-top: 0.5rem;">Annual Earth Day Anomalies</h4> <p style="font-size:14px;">Animated analysis of global temperature anomalies from 1949–2025.</p> <a href="https://github.com/shawnatwsu/earthday2025/tree/main" target="_blank" style="text-decoration:none;color:white;background-color:#007bff;padding:6px 12px;border-radius:4px;font-size:13px;">GitHub Repo ↗</a> </div> </div>
-🍏 Agriculture & Climate Change
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-📈 Climate Impacts on Apple Production (Published)
-<div style="max-width: 320px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); padding: 1rem; transition: transform 0.3s; background-color: #f8f9fa;"> <a href="/combined_panel_clean.png" target="_blank"> <img src="/combined_panel_clean.png" style="width:100%; border-radius: 8px;"> </a> <h4 style="margin-top: 0.5rem;">Preston et al., 2024</h4> <p style="font-size:14px;">Analyzed historical climate metrics affecting top apple-producing states.</p> <a href="https://github.com/shawnatwsu/Changing-Climate-Risks-for-High-Value-Tree-Fruit-Production-across-the-United-States" target="_blank" style="text-decoration:none;color:white;background-color:#007bff;padding:6px 12px;border-radius:4px;font-size:13px;">GitHub Repo ↗</a> </div> </div>
-🎮 Environmental Education Games
-<div style="text-align:center; margin-top:1rem;"> <a href="/greenhouse_invaders.gif" target="_blank"> <img src="/greenhouse_invaders.gif" style="width:70%;border-radius:8px;"> </a> <p style="margin-top:1rem;">Interactive game teaching about greenhouse gas impacts.</p> <a href="https://github.com/shawnatwsu/Greenhouse-Invaders" target="_blank" style="text-decoration:none;color:white;background-color:#007bff;padding:6px 12px;border-radius:4px;">GitHub Repo ↗</a> </div>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+<style>
+  body { font-family: 'Inter', sans-serif; background-color: #f0f4f8; margin:0; padding:1rem; }
+  .portfolio-title { text-align:center; margin-bottom: 2rem; }
+  .project-grid { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+  .project-card { width: 280px; background: #fff; border-radius:12px; box-shadow: 0 3px 8px rgba(0,0,0,0.1); padding: 1rem; transition: transform 0.2s; }
+  .project-card:hover { transform: translateY(-5px); }
+  .project-card img { border-radius:8px; width:100%; height:160px; object-fit:cover; }
+  .project-title { margin-top:0.5rem; font-size:16px; font-weight:600; }
+  .project-description { font-size:13px; color:#555; margin:0.5rem 0; }
+  .button { display:inline-block; margin-top:0.5rem; padding: 4px 8px; background:#007bff; color:#fff; text-decoration:none; border-radius:4px; font-size:13px; }
+  @media (max-width:800px){.project-grid{flex-direction:column;align-items:center;}}
+</style>
+
+<h1 class="portfolio-title">🌎 Shawn Preston | GIS & Remote Sensing Scientist</h1>
+
+<div class="project-grid">
+
+<div class="project-card">
+  <img src="/UHI_VIIRS.png">
+  <div class="project-title">🛰️ VIIRS UHI Intensity</div>
+  <div class="project-description">Urban Heat Island analysis using nighttime lights.</div>
+  <a href="https://github.com/shawnatwsu/NOAA-PATHWAY-PROJECT-2025_UHI" class="button">GitHub ↗</a>
+</div>
+
+<div class="project-card">
+  <img src="/texas_storm_panel.png">
+  <div class="project-title">❄️ Texas Winter Storm</div>
+  <div class="project-description">Storm radiance impacts correlated with poverty.</div>
+  <a href="https://github.com/shawnatwsu/2021_Texas_Storm" class="button">GitHub ↗</a>
+</div>
+
+<div class="project-card">
+  <img src="/map1-1.png">
+  <div class="project-title">🔥 SC Wildfires 2025</div>
+  <div class="project-description">Burn severity mapping with Sentinel-2 & VIIRS.</div>
+  <a href="https://github.com/shawnatwsu/airquality/blob/main/aq_SouthCarolina" class="button">GEE Script ↗</a>
+</div>
+
+<div class="project-card">
+  <img src="/marchpnw.png">
+  <div class="project-title">🌡️ PNW Heatwave 2025</div>
+  <div class="project-description">GridMET anomaly analysis of extreme heat.</div>
+  <a href="https://github.com/shawnatwsu/MarchHeatPNW" class="button">GitHub ↗</a>
+</div>
+
+<div class="project-card">
+  <img src="/earthday_apr22_us_globe_anomaly.gif">
+  <div class="project-title">🌎 Earth Day Anomalies</div>
+  <div class="project-description">Global temperature anomalies animation.</div>
+  <a href="https://github.com/shawnatwsu/earthday2025/tree/main" class="button">GitHub ↗</a>
+</div>
+
+<div class="project-card">
+  <img src="/combined_panel_clean.png">
+  <div class="project-title">🍎 Apple Climate Metrics</div>
+  <div class="project-description">Historical impacts on apple production.</div>
+  <a href="https://github.com/shawnatwsu/Changing-Climate-Risks-for-High-Value-Tree-Fruit-Production-across-the-United-States" class="button">GitHub ↗</a>
+</div>
+
+<div class="project-card">
+  <img src="/greenhouse_invaders.gif">
+  <div class="project-title">🎮 Greenhouse Invaders</div>
+  <div class="project-description">Educational game on greenhouse gases.</div>
+  <a href="https://github.com/shawnatwsu/Greenhouse-Invaders" class="button">GitHub ↗</a>
+</div>
+
+</div>
