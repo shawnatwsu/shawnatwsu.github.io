@@ -15,7 +15,7 @@
   --fz-base: clamp(1rem, 1.2vw, 1.125rem);
 }
 
-/* ===== Apply Variables & Fluid Type ===== */
+/* ===== Base & Layout ===== */
 body {
   font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
   font-size: var(--fz-base);
@@ -28,6 +28,8 @@ body {
   max-width: 100ch;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  overflow-x: hidden;
 }
 
 /* ===== Scrollbar ===== */
@@ -42,11 +44,48 @@ body {
   border-radius: 4px;
 }
 
+/* ===== Navbar ===== */
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #ffffffdd;
+  backdrop-filter: blur(8px);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #cce;
+  z-index: 1000;
+}
+nav a {
+  text-decoration: none;
+  color: var(--clr-primary);
+  margin: 0 1rem;
+  font-weight: bold;
+  transition: color var(--transition);
+}
+nav a:hover {
+  color: var(--clr-accent);
+}
+nav .toggle-dark {
+  cursor: pointer;
+  background: none;
+  border: 1px solid var(--clr-primary);
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: var(--clr-primary);
+  font-size: 0.9rem;
+}
+
 /* ===== Gradient Animated Headings ===== */
-h1.gradient, h2.gradient {
+h1, h2, h3 {
   background: linear-gradient(90deg, var(--clr-secondary), var(--clr-primary), var(--clr-accent));
   -webkit-background-clip: text;
   color: transparent;
+  position: relative;
+  padding-bottom: 0.3em;
+  margin-top: 2rem;
+  border-bottom: 2px solid rgba(178,223,219,0.7);
   animation: hueRotate 5s infinite alternate;
 }
 @keyframes hueRotate {
@@ -79,7 +118,7 @@ a:hover::after {
 }
 
 /* ===== Card Component ===== */
-.card {
+.card, section {
   background: #fff;
   border-radius: var(--radius);
   box-shadow: 0 8px 24px rgba(0,0,0,0.1);
@@ -87,7 +126,7 @@ a:hover::after {
   margin: var(--flow-space) 0;
   transition: transform var(--transition), box-shadow var(--transition);
 }
-.card:hover {
+.card:hover, section:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 32px rgba(0,0,0,0.15);
 }
@@ -116,20 +155,22 @@ pre {
   margin: var(--flow-space) 0;
 }
 
-/* ===== Badge & Button Variations ===== */
+/* ===== Badges & Buttons ===== */
 .badge, a[href*="badge"] {
+  display: inline-block;
   background-color: #e0f2f1;
-  border: 1px solid #b2dfdb;
   color: #004d40;
   padding: 0.3em 0.7em;
   border-radius: 15px;
   font-size: 0.85em;
   margin: 0.3em;
-  transition: background var(--transition), color var(--transition);
+  border: 1px solid #b2dfdb;
+  transition: background var(--transition), color var(--transition), transform var(--transition);
 }
 .badge:hover {
   background: var(--clr-primary);
   color: #fff;
+  transform: scale(1.05);
 }
 
 button {
@@ -148,9 +189,36 @@ button:hover {
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
 
-/* ===== Section Flow Spacing ===== */
-section {
-  margin-bottom: var(--flow-space);
+/* ===== Lists & Tables ===== */
+ul {
+  padding-left: 1.5rem;
+}
+li::marker {
+  color: var(--clr-primary);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+table, th, td {
+  border: 1px solid #c8e6c9;
+  padding: 0.6rem;
+}
+th {
+  background-color: #e0f2f1;
+}
+
+/* ===== Images ===== */
+img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  margin: 1.5rem 0;
+  transition: transform var(--transition);
+}
+img:hover {
+  transform: scale(1.03);
 }
 
 /* ===== Footer ===== */
@@ -189,4 +257,99 @@ body.dark-mode .badge {
 body.dark-mode button {
   background: linear-gradient(135deg, #26c6da, #4dd0e1);
   color: #000;
+}
+
+/* ===== Pop! Animated Extras ===== */
+
+/* 1. Starry Twinkle Overlay */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background:
+    radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px) 0 0/40px 40px,
+    radial-gradient(circle, rgba(255,255,255,0.6) 1px, transparent 1px) 20px 20px/50px 50px;
+  pointer-events: none;
+  animation: twinkle 10s linear infinite;
+  z-index: -1;
+}
+@keyframes twinkle {
+  0%,100% { opacity: 0.6; }
+  50%     { opacity: 1;   }
+}
+
+/* 2. Floating Sections/Cards */
+.card, section {
+  animation: floaty 6s ease-in-out infinite;
+}
+@keyframes floaty {
+  0%,100% { transform: translateY(0); }
+  50%     { transform: translateY(-8px); }
+}
+
+/* 3. Pulsing Buttons & Badges */
+button, .badge {
+  animation: pulse 2s ease-in-out infinite alternate;
+}
+@keyframes pulse {
+  to {
+    transform: scale(1.05);
+    box-shadow: 0 0 12px var(--clr-accent);
+  }
+}
+
+/* ===== Pop! Animated Extras ===== */
+
+/* 4. Rotating Logos or Icons */
+.logo, .rotate-slow {
+  display: inline-block;
+  will-change: transform;
+  animation: spin 20s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* 5. Satellite Cursor (🛰 SVG) */
+body {
+  cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiI+PHRleHQgeT0iMjQiIGZvbnQtc2l6ZT0iMjQiPvCfm7A8L3RleHQ+PC9zdmc+"), auto;
+}
+
+/* (If you need 1–3 again, drop these at the top of this block) */
+/* 1. Starry Twinkle Overlay */
+body::before {
+  content: "";
+  position: fixed; top: 0; left: 0;
+  width: 100%; height: 100%;
+  background:
+    radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px) 0 0/40px 40px,
+    radial-gradient(circle, rgba(255,255,255,0.6) 1px, transparent 1px) 20px 20px/50px 50px;
+  pointer-events: none;
+  animation: twinkle 10s linear infinite;
+  z-index: -1;
+}
+@keyframes twinkle {
+  0%,100% { opacity: 0.6; }
+  50%     { opacity: 1;   }
+}
+
+/* 2. Floating Sections/Cards */
+section, .card {
+  animation: floaty 6s ease-in-out infinite;
+}
+@keyframes floaty {
+  0%,100% { transform: translateY(0); }
+  50%     { transform: translateY(-8px); }
+}
+
+/* 3. Pulsing Buttons & Badges */
+button, .badge {
+  animation: pulse 2s ease-in-out infinite alternate;
+}
+@keyframes pulse {
+  to {
+    transform: scale(1.05);
+    box-shadow: 0 0 12px var(--clr-accent);
+  }
 }
