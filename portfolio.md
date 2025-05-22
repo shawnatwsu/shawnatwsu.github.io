@@ -128,4 +128,17 @@ See how temperature shifts affect apple-growing regions across the U.S. using th
 
 ### Greenhouse-Invaders  
 An educational game highlighting the impacts of greenhouse gases.  
+<a href="/greenhouse_invaders.gif" target="_blank">
+  <img
+    src="/greenhouse_invaders.gif"
+    alt="Greenhouse Invaders Game"
+    style="
+      float: right;
+      width: 200px;            /* preview width—you can tweak this */
+      margin: -5rem -4rem 1rem 1rem;   /* top | right | bottom | left */
+      border: 1px solid #ccc;
+    "
+  />
+</a>
+
 **[GitHub Repository](https://github.com/shawnatwsu/Greenhouse-Invaders)**
