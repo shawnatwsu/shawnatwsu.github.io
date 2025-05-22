@@ -51,7 +51,7 @@ and vegetation change across South Carolina’s early-2025 wildfires.
     alt="SC Burn Severity & NDVI Loss Panel"
     style="
       float: right;
-      width: 250px;            /* preview width – tweak as needed */
+      width: 200px;            /* preview width – tweak as needed */
       margin: -7rem -4rem 1rem 1rem;   /* top | right | bottom | left */
       border: 1px solid #ccc;
     "
