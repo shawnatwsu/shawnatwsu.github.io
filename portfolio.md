@@ -81,7 +81,7 @@ Analyzed the Pacific Northwest maximum temperature for the March 25-26, 2025 ano
 **[GitHub Repository](https://github.com/shawnatwsu/MarchHeatPNW)**
 
 ### Earth Day 2025
-Analyzed the T
+Analyzed the Annual Earth Day for every year from 1949
 <a href="/marchpnw.png" target="_blank">
   <img
     src="/marchpnw.png"
@@ -95,7 +95,7 @@ Analyzed the T
   />
 </a>
 
-**[GitHub Repository](https://github.com/shawnatwsu/MarchHeatPNW)**
+**[GitHub Repository](https://github.com/shawnatwsu/earthday2025/tree/main)**
 
 
 
