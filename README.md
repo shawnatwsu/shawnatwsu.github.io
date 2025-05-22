@@ -19,10 +19,21 @@ Hi, I’m <b>Shawn Preston</b> — a climate, remote sensing, and GIS scientist 
 
 
 ## 🚀 My Toolkit
+- **Computational Analysis & DevOps:**  
+  Python (xarray, pandas, statsmodels, matplotlib, cartopy), NCL, CDO, R;  
+  HPC pipelines and version-controlled workflows (Git/GitHub, CI);  
+  Unix/Linux command-line proficiency.
 
-- Computational Analysis: Python (xarray, matplotlib, cartopy, pandas, statsmodels), NCL, CDO, R, HPC pipelines, and version-controlled workflows.
-- Geospatial Science: ArcGIS Pro, QGIS, SQL, Google Earth Engine, and large-scale model outputs like CESM2-LE.
-- Fieldwork: Soil sampling on Mount St. Helens, ecological surveys, and in-situ measurements.
+- **Geospatial Science:**  
+  ArcGIS Pro, QGIS, SQL, Google Earth Engine;  
+  processing large-scale CESM2-LE model outputs.
+
+- **Fieldwork & Data Collection:**  
+  Soil sampling on Mount St. Helens, ecological surveys, in-situ measurements.
+
+- **Scientific Communication & Visualization:**  
+  Authored and co-authored peer-reviewed manuscript; served as peer reviewer for a scientific journal;  
+  translated analyses into public-facing figures, interactive dashboards, and narrative reports.
 
 I thrive on tackling big datasets, building interactive visualizations, and translating complex findings into clear, actionable insights. Whether it’s mapping climate attribution, quantifying hazard impacts, or crafting story-driven narratives, I’m driven by the intersection of science and solutions.
 
