@@ -5,22 +5,7 @@
 ---
 <link rel="stylesheet" href="style.css">
 
-![Python](https://img.shields.io/badge/Python-3.8-blue)
-![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-GIS-green)
-![GEE](https://img.shields.io/badge/Google%20Earth%20Engine-Remote%20Sensing-brightgreen)
-![NOAA](https://img.shields.io/badge/NOAA-Federal%20Research-blueviolet)
-![Git](https://img.shields.io/badge/Git-%3E%3D2.0-black)
-![GitHub](https://img.shields.io/badge/GitHub-%F0%9F%91%8B-181717)
-![Unix](https://img.shields.io/badge/Unix-Command%20Line-lightgrey)
-![ArcGIS_Pro](https://img.shields.io/badge/ArcGIS%20Pro-GIS-yellowgreen)
-![SQL](https://img.shields.io/badge/SQL-Querying-lightgrey)
-![xarray](https://img.shields.io/badge/xarray-%3E%3D0.16-blue)
-![pandas](https://img.shields.io/badge/pandas-%3E%3D1.0-lightblue)
-![statsmodels](https://img.shields.io/badge/statsmodels-%3E%3D0.12-green)
-![matplotlib](https://img.shields.io/badge/matplotlib-%3E%3D3.0-orange)
-![Cartopy](https://img.shields.io/badge/Cartopy-%3E%3D0.17-blueviolet)
-![Manuscript_Author](https://img.shields.io/badge/Manuscript-Author-blue)
-![Peer_Reviewer](https://img.shields.io/badge/Peer%20Reviewer-Journal-green)
+![Python](https://img.shields.io/badge/Python-3.8-blue) ![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-GIS-green) ![GEE](https://img.shields.io/badge/Google%20Earth%20Engine-Remote%20Sensing-brightgreen) ![NOAA](https://img.shields.io/badge/NOAA-Federal%20Research-blueviolet) ![Git](https://img.shields.io/badge/Git-%3E%3D2.0-black) ![GitHub](https://img.shields.io/badge/GitHub-%F0%9F%91%8B-181717) ![Unix](https://img.shields.io/badge/Unix-Command%20Line-lightgrey) ![ArcGIS_Pro](https://img.shields.io/badge/ArcGIS%20Pro-GIS-yellowgreen) ![SQL](https://img.shields.io/badge/SQL-Querying-lightgrey) ![xarray](https://img.shields.io/badge/xarray-%3E%3D0.16-blue) ![pandas](https://img.shields.io/badge/pandas-%3E%3D1.0-lightblue) ![statsmodels](https://img.shields.io/badge/statsmodels-%3E%3D0.12-green) ![matplotlib](https://img.shields.io/badge/matplotlib-%3E%3D3.0-orange) ![Cartopy](https://img.shields.io/badge/Cartopy-%3E%3D0.17-blueviolet) ![Manuscript_Author](https://img.shields.io/badge/Manuscript-Author-blue) ![Peer_Reviewer](https://img.shields.io/badge/Peer%20Reviewer-Journal-green)
 
 ## About Me
 
