@@ -81,7 +81,7 @@ Analyzed the Pacific Northwest maximum temperature for the March 25-26, 2025 ano
 **[GitHub Repository](https://github.com/shawnatwsu/MarchHeatPNW)**
 
 
----
+<hr style="margin: 3rem 0;">
 
 ## 🍎 Climate Impacts on Agriculture
 
