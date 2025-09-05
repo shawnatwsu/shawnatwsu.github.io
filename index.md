@@ -18,7 +18,7 @@
       <a href="mailto:shawnxpreston@gmail.com"><button>Email</button></a>
       <a href="https://github.com/shawnatwsu"><button>GitHub</button></a>
       <a href="https://linkedin.com/in/shawnxpreston"><button>LinkedIn</button></a>
-      <a href="https://twitter.com/shawnxpreston"><button>Twitter</button></a>
+      <a href="https://twitter.com/shawn_dabblez"><button>Twitter</button></a>
     </div>
   </div>
 
