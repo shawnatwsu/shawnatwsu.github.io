@@ -12,7 +12,6 @@
   <div class="left-column">
     <img src="assets/profile.jpg" alt="Shawn Preston">
     <h2>Shawn Preston</h2>
-    <p>shawnxpreston@gmail.com</p>
     <div class="buttons">
       <a href="mailto:shawnxpreston@gmail.com"><button>Email</button></a>
       <a href="https://github.com/shawnatwsu"><button>GitHub</button></a>
