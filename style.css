@@ -1,355 +1,60 @@
-/* ===== Theme Variables & Fluid Typography ===== */
-:root {
-  --clr-bg-light: #e0f7fa;
-  --clr-bg-light-alt: #e8f5e9;
-  --clr-bg-dark: #263238;
-  --clr-bg-dark-alt: #1c1c1c;
-  --clr-primary: #00796b;
-  --clr-secondary: #1e88e5;
-  --clr-accent: #d32f2f;
-  --clr-text-light: #e0e0e0;
-  --clr-text-dark: #1b1f23;
-  --transition: 0.3s ease;
-  --radius: 0.6rem;
-  --flow-space: clamp(1rem, 2.5vw, 2rem);
-  --fz-base: clamp(1rem, 1.2vw, 1.125rem);
+/* ===== Two Column Layout ===== */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
-/* ===== Base & Layout ===== */
-body {
-  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
-  font-size: var(--fz-base);
-  background: linear-gradient(to bottom right, var(--clr-bg-light), var(--clr-bg-light-alt));
-  color: var(--clr-text-dark);
-  line-height: 1.7;
-  margin: 0;
-  padding: 0 var(--flow-space);
-  transition: background var(--transition), color var(--transition);
-  max-width: 100ch;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  overflow-x: hidden;
+.left-column {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
 }
 
-/* ===== Scrollbar ===== */
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-track {
-  background: rgba(0,0,0,0.05);
-}
-::-webkit-scrollbar-thumb {
-  background: rgba(0,0,0,0.2);
-  border-radius: 4px;
+.left-column img {
+  width: 220px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-/* ===== Navbar ===== */
+.right-column {
+  flex: 2;
+  min-width: 300px;
+}
+
+/* ===== Header Nav ===== */
 nav {
   position: sticky;
   top: 0;
-  background-color: #ffffffdd;
-  backdrop-filter: blur(8px);
-  padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #cce;
-  z-index: 1000;
+  background: #ffffffdd;
+  backdrop-filter: blur(8px);
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc;
 }
-nav a {
-  text-decoration: none;
-  color: var(--clr-primary);
-  margin: 0 1rem;
+
+nav .nav-left {
+  font-size: 1.2rem;
   font-weight: bold;
-  transition: color var(--transition);
-}
-nav a:hover {
-  color: var(--clr-accent);
-}
-nav .toggle-dark {
-  cursor: pointer;
-  background: none;
-  border: 1px solid var(--clr-primary);
-  border-radius: 20px;
-  padding: 5px 10px;
   color: var(--clr-primary);
-  font-size: 0.9rem;
 }
 
-/* ===== Gradient Animated Headings ===== */
-h1, h2, h3 {
-  background: linear-gradient(90deg, var(--clr-secondary), var(--clr-primary), var(--clr-accent));
-  -webkit-background-clip: text;
-  color: transparent;
-  position: relative;
-  padding-bottom: 0.3em;
-  margin-top: 2rem;
-  border-bottom: 2px solid rgba(178,223,219,0.7);
-  animation: hueRotate 5s infinite alternate;
-}
-@keyframes hueRotate {
-  from { filter: hue-rotate(0deg); }
-  to   { filter: hue-rotate(360deg); }
-}
-
-/* ===== Link Underlines ===== */
-a {
-  position: relative;
-  color: var(--clr-secondary);
+nav .nav-right a {
+  margin-left: 1rem;
   text-decoration: none;
+  font-weight: bold;
+  color: var(--clr-secondary);
   transition: color var(--transition);
 }
-a::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: -2px;
-  left: 0;
-  background-color: var(--clr-secondary);
-  transition: width var(--transition);
-}
-a:hover {
+nav .nav-right a:hover {
   color: var(--clr-accent);
 }
-a:hover::after {
-  width: 100%;
-}
 
-/* ===== Card Component ===== */
-.card, section {
-  background: #fff;
-  border-radius: var(--radius);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-  padding: var(--flow-space);
-  margin: var(--flow-space) 0;
-  transition: transform var(--transition), box-shadow var(--transition);
-}
-.card:hover, section:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(0,0,0,0.15);
-}
-
-/* ===== Blockquote Styling ===== */
-blockquote {
-  border-left: 4px solid var(--clr-primary);
-  padding: 0.8em 1em;
-  margin: var(--flow-space) 0;
-  background: rgba(224,242,241,0.4);
-  font-style: italic;
-  color: #555;
-}
-
-/* ===== Code & Pre Styling ===== */
-pre, code {
-  font-family: 'Courier New', Courier, monospace;
-  background: #263238;
-  color: #eceff1;
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
-  overflow-x: auto;
-}
-pre {
-  padding: var(--flow-space);
-  margin: var(--flow-space) 0;
-}
-
-/* ===== Badges & Buttons ===== */
-.badge, a[href*="badge"] {
-  display: inline-block;
-  background-color: #e0f2f1;
-  color: #004d40;
-  padding: 0.3em 0.7em;
-  border-radius: 15px;
-  font-size: 0.85em;
-  margin: 0.3em;
-  border: 1px solid #b2dfdb;
-  transition: background var(--transition), color var(--transition), transform var(--transition);
-}
-.badge:hover {
-  background: var(--clr-primary);
-  color: #fff;
-  transform: scale(1.05);
-}
-
-button {
-  background: linear-gradient(135deg, var(--clr-primary), var(--clr-secondary));
-  color: #fff;
-  border: none;
-  padding: 0.8em 1.2em;
-  border-radius: var(--radius);
-  font-size: 1em;
-  cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: transform var(--transition), box-shadow var(--transition);
-}
-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-}
-
-/* ===== Lists & Tables ===== */
-ul {
-  padding-left: 1.5rem;
-}
-li::marker {
-  color: var(--clr-primary);
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1.5rem;
-}
-table, th, td {
-  border: 1px solid #c8e6c9;
-  padding: 0.6rem;
-}
-th {
-  background-color: #e0f2f1;
-}
-
-/* ===== Images ===== */
-img {
-  max-width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
-  margin: 1.5rem 0;
-  transition: transform var(--transition);
-}
-img:hover {
-  transform: scale(1.03);
-}
-
-/* ===== Footer ===== */
-footer {
-  text-align: center;
-  color: #607d8b;
-  font-size: 0.9rem;
-  margin-top: 4rem;
-  padding-bottom: 2rem;
-}
-
-/* ===== Dark Mode Overrides ===== */
-body.dark-mode {
-  background: linear-gradient(to bottom right, var(--clr-bg-dark), var(--clr-bg-dark-alt));
-  color: var(--clr-text-light);
-}
-body.dark-mode nav {
-  background-color: #1e1e1ecc;
-  border-color: #444;
-}
-body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
-  color: #80cbc4;
-  border-color: #37474f;
-}
-body.dark-mode a {
-  color: #4dd0e1;
-}
-body.dark-mode a:hover {
-  color: #ff8a65;
-}
-body.dark-mode .badge {
-  background-color: #37474f;
-  color: #b2ebf2;
-  border-color: #4dd0e1;
-}
-body.dark-mode button {
-  background: linear-gradient(135deg, #26c6da, #4dd0e1);
-  color: #000;
-}
-
-/* ===== Pop! Animated Extras ===== */
-
-/* 1. Starry Twinkle Overlay */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background:
-    radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px) 0 0/40px 40px,
-    radial-gradient(circle, rgba(255,255,255,0.6) 1px, transparent 1px) 20px 20px/50px 50px;
-  pointer-events: none;
-  animation: twinkle 10s linear infinite;
-  z-index: -1;
-}
-@keyframes twinkle {
-  0%,100% { opacity: 0.6; }
-  50%     { opacity: 1;   }
-}
-
-/* 2. Floating Sections/Cards */
-.card, section {
-  animation: floaty 6s ease-in-out infinite;
-}
-@keyframes floaty {
-  0%,100% { transform: translateY(0); }
-  50%     { transform: translateY(-8px); }
-}
-
-/* 3. Pulsing Buttons & Badges */
-button, .badge {
-  animation: pulse 2s ease-in-out infinite alternate;
-}
-@keyframes pulse {
-  to {
-    transform: scale(1.05);
-    box-shadow: 0 0 12px var(--clr-accent);
-  }
-}
-
-/* ===== Pop! Animated Extras ===== */
-
-/* 4. Rotating Logos or Icons */
-.logo, .rotate-slow {
-  display: inline-block;
-  will-change: transform;
-  animation: spin 20s linear infinite;
-}
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
-
-/* 5. Satellite Cursor (🛰 SVG) */
+/* ===== Softer Background ===== */
 body {
-  cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiI+PHRleHQgeT0iMjQiIGZvbnQtc2l6ZT0iMjQiPvCfm7A8L3RleHQ+PC9zdmc+"), auto;
-}
-
-/* (If you need 1–3 again, drop these at the top of this block) */
-/* 1. Starry Twinkle Overlay */
-body::before {
-  content: "";
-  position: fixed; top: 0; left: 0;
-  width: 100%; height: 100%;
-  background:
-    radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px) 0 0/40px 40px,
-    radial-gradient(circle, rgba(255,255,255,0.6) 1px, transparent 1px) 20px 20px/50px 50px;
-  pointer-events: none;
-  animation: twinkle 10s linear infinite;
-  z-index: -1;
-}
-@keyframes twinkle {
-  0%,100% { opacity: 0.6; }
-  50%     { opacity: 1;   }
-}
-
-/* 2. Floating Sections/Cards */
-section, .card {
-  animation: floaty 6s ease-in-out infinite;
-}
-@keyframes floaty {
-  0%,100% { transform: translateY(0); }
-  50%     { transform: translateY(-8px); }
-}
-
-/* 3. Pulsing Buttons & Badges */
-button, .badge {
-  animation: pulse 2s ease-in-out infinite alternate;
-}
-@keyframes pulse {
-  to {
-    transform: scale(1.05);
-    box-shadow: 0 0 12px var(--clr-accent);
-  }
+  background: #f3fbfb;
 }
