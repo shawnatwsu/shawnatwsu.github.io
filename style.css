@@ -58,3 +58,32 @@ nav .nav-right a:hover {
 body {
   background: #f3fbfb;
 }
+/* ===== Two Column Layout ===== */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.left-column {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+}
+.left-column img {
+  width: 220px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.right-column {
+  flex: 2;
+  min-width: 300px;
+}
+
+/* ===== Softer Background ===== */
+body { background: #f3fbfb; }
+
+/* Optional: keep your existing nav styles; this only adds labels */
+.nav-left { font-weight: 700; color: var(--clr-primary); }
+.nav-right a { margin-left: 1rem; }
