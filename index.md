@@ -1,14 +1,18 @@
 <link rel="stylesheet" href="style.css">
 
-<nav>
-  <div class="nav-right">
-    <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="https://hazardapp.replit.app/">HazardApp</a>
+<header>
+  <div class="nav-container">
+    <div class="nav-left">🌎 Shawn Preston</div>
+    <div class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="https://hazardapp.replit.app/">HazardApp</a>
+    </div>
   </div>
-</nav>
+</header>
 
 <div class="container">
+  <!-- Left Column -->
   <div class="left-column">
     <img src="assets/profile.jpg" alt="Shawn Preston">
     <h2>Shawn Preston</h2>
@@ -17,10 +21,11 @@
       <a href="https://github.com/shawnatwsu"><button>GitHub</button></a>
       <a href="https://linkedin.com/in/shawnxprestonms"><button>LinkedIn</button></a>
       <a href="https://twitter.com/shawn_dabblez"><button>Twitter</button></a>
-      <a href="https://www.researchgate.net/publication/385719286_Changing_climate_risks_for_high-value_tree_fruit_production_across_the_United_States"><button>Research Gate</button></a>
+      <a href="https://www.researchgate.net/publication/385719286_Changing_climate_risks_for_high-value_tree_fruit_production_across_the_United_States"><button>ResearchGate</button></a>
     </div>
   </div>
 
+  <!-- Right Column -->
   <div class="right-column">
     <section>
       <h2>About Me</h2>
