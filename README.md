@@ -1,6 +1,6 @@
 # Shawn Preston
 
-<img src="https://github.com/user-attachments/assets/e2bf4775-0aab-45f6-8ba2-d72093929184" alt="Shawn Preston" width="220" style="border-radius: 50%; margin-bottom: 15px;">
+<img src="https://github.com/shawnatwsu/shawnatwsu.github.io/blob/main/GBH-HE0aoAAMQFY.jpg" alt="Shawn Preston" width="220" style="border-radius: 50%; margin-bottom: 15px;">
 
 **Shawn Preston**  
 shawnxpreston@gmail.com  
