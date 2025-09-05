@@ -1,48 +1,79 @@
 # Shawn Preston
 
-**[Email](mailto:shawnxpreston@gmail.com)** | **[GitHub](https://github.com/shawnatwsu)** | **[Portfolio](portfolio.md)** | **[Founder of Hazardapp](https://hazardapp.replit.app/)**
+<img src="https://github.com/user-attachments/assets/e2bf4775-0aab-45f6-8ba2-d72093929184" alt="Shawn Preston" width="220" style="border-radius: 50%; margin-bottom: 15px;">
+
+**Shawn Preston**  
+shawnxpreston@gmail.com  
+
+<div style="margin: 15px 0;">
+  <a href="mailto:shawnxpreston@gmail.com"><button>Email</button></a>
+  <a href="https://github.com/shawnatwsu"><button>GitHub</button></a>
+  <a href="https://linkedin.com/in/shawnxpreston"><button>LinkedIn</button></a>
+  <a href="https://twitter.com/shawnxpreston"><button>Twitter</button></a>
+</div>
 
 ---
 
-<link rel="stylesheet" href="style.css">
-
-![Python](https://img.shields.io/badge/Python-3.8-blue) ![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-GIS-green) ![GEE](https://img.shields.io/badge/Google%20Earth%20Engine-Remote%20Sensing-brightgreen) ![NOAA](https://img.shields.io/badge/NOAA-Federal%20Research-blueviolet) ![GitHub](https://img.shields.io/badge/GitHub-%F0%9F%91%8B-181717) ![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-GIS-yellowgreen) ![SQL](https://img.shields.io/badge/SQL-Querying-lightgrey)
-
----
-
-## 👋 About Me
+## About Me
 
 I am a climate, remote sensing, and GIS scientist with an M.S. in Environmental Science.  
-I’ve worked with **NASA, NOAA, USGS, and Washington State University**, analyzing hazards ranging from wildfire spread and extreme heat to stormwater and agricultural resilience.  
+I have worked with **NASA, NOAA, USGS, and Washington State University**, analyzing hazards such as wildfire spread, extreme heat, stormwater events, and agricultural resilience.  
 
-I thrive on tackling big datasets, building interactive visualizations, and turning complex science into actionable insights.
-
----
-
-## 🚀 Highlights
-
-- **Publication:** *Changing Climate Risks for Tree Fruit Production across the U.S.*  
-  Published in *Environmental Research Letters* (2024).  
-  [Read Paper](https://iopscience.iop.org/article/10.1088/1748-9326/ad90f4/meta) | [Repository](https://github.com/shawnatwsu/Changing-Climate-Risks-for-High-Value-Tree-Fruit-Production-across-the-United-States)
-
-- **HazardApp:** Founder of [HazardApp](https://hazardapp.replit.app/) – real-time environmental risk dashboard.
-
-- **Portfolio:** See more projects on my [Portfolio](portfolio.md).
+Based in the Pacific Northwest, I enjoy working with satellite data, building visualizations, and translating complex climate science into actionable insights.
 
 ---
 
-## 📚 Education
+## Education
 
-- **M.S. & B.S. Environmental Science**, Washington State University (2018–2024)  
-- **GIScience Graduate Certificate**, Oregon State University (expected 2025)
+**Washington State University, Vancouver, WA**  
+*M.S. Environmental Science* – July 2024  
+*B.S. Environmental Science* – May 2020  
 
----
-
-## 📫 Contact
-
-📧 [shawnxpreston@gmail.com](mailto:shawnxpreston@gmail.com)  
-🌐 [GitHub](https://github.com/shawnatwsu)  
+**Oregon State University, Corvallis, OR**  
+*GIScience Graduate Certificate (Expected July 2025)*  
 
 ---
 
-**Last updated:** May 2025
+## Professional Experience
+
+**NOAA – National Oceanic and Atmospheric Administration**  
+*Physical Scientist (Student Trainee)*  
+Jul 2024 – Feb 2025  
+
+**Washington State University**  
+*Graduate Research Assistant*  
+Jul 2022 – Jul 2024  
+
+**Sunshine Elite Education**  
+*STEM Teacher & Knowledge Bowl Coach*  
+Jan 2022 – Feb 2023  
+
+**NASA Marshall Space Flight Center**  
+*GIS Student Intern*  
+Jun 2021 – Jul 2021  
+
+**San Jose State University**  
+*Graduate Teaching Assistant*  
+Aug 2020 – May 2021  
+
+**Washington State University**  
+*Field & Lab Assistant* — Jun 2019 – May 2020  
+*Front Desk (Recreation Center)* — Aug 2018 – May 2020  
+
+---
+
+## Skills
+
+**Programming:** Python, R, Google Earth Engine, JavaScript, SQL, Bash  
+
+**GIS & Remote Sensing:** ArcGIS Pro, QGIS, ENVI, NCL, CDO, Cartopy, GeoPandas  
+
+**Data Science:** Xarray, Pandas, Statsmodels, SciPy, Jupyter  
+
+**Visualization:** Matplotlib, Tableau, Dashboards, Story Maps  
+
+**Other Expertise:** Remote Sensing, Climate Data Analysis, HPC, Scientific Writing  
+
+---
+
+_Last updated: May 2025_
