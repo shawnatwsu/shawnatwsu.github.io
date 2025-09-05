@@ -1,14 +1,52 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
 
-<nav>
-  <div class="nav-left">Shawn Preston</div>
-  <div class="nav-right">
-    <a href="/">Home</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="https://hazardapp.replit.app/">HazardApp</a>
+<header>
+  <div class="nav-container">
+    <div class="nav-left">🌎 Shawn Preston</div>
+    <div class="nav-right">
+      <a href="/">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="https://hazardapp.replit.app/">HazardApp</a>
+    </div>
   </div>
-</nav>
+</header>
+
+<style>
+  header {
+    background-color: #ffffffee;
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-left {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #007bff;
+  }
+  .nav-right a {
+    margin-left: 1.2rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  .nav-right a:hover {
+    color: #007bff;
+  }
+</style>
+
 
 <style>
   body { font-family: 'Inter', sans-serif; background-color: #f0f4f8; margin:0; padding:1rem; }
