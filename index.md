@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="style.css">
 
 <nav>
-  <div class="nav-left">Shawn Preston</div>
   <div class="nav-right">
     <a href="index.html">Home</a>
     <a href="portfolio.html">Portfolio</a>
