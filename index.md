@@ -13,7 +13,7 @@ title: "Shawn Preston"
 
 <div class="container">
   <div class="left-column">
-    <img src="https://github.com/shawnatwsu/shawnatwsu.github.io/blob/main/GBH-HE0aoAAMQFY.jpg" alt="Shawn Preston">
+    <img src="assets/profile.jpg" alt="Shawn Preston">
     <h2>Shawn Preston</h2>
     <p>shawnxpreston@gmail.com</p>
     <div class="buttons">
