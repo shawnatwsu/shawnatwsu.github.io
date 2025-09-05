@@ -4,7 +4,7 @@
   <div class="nav-left">Shawn Preston</div>
   <div class="nav-right">
     <a href="index.html">Home</a>
-    <a href="portfolio.md">Portfolio</a>
+    <a href="portfolio.html">Portfolio</a>
     <a href="https://hazardapp.replit.app/">HazardApp</a>
   </div>
 </nav>
