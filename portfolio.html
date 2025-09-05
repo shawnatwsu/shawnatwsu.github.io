@@ -12,7 +12,8 @@
 
 <style>
   body { font-family: 'Inter', sans-serif; background-color: #f0f4f8; margin:0; padding:1rem; }
-  .portfolio-title { text-align:center; margin: 1.2rem 0 2rem; }
+  h1, h2 { text-align:center; margin: 2rem 0 1rem; }
+  .section-desc { text-align:center; margin-bottom: 2rem; color:#555; }
   .project-grid { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
   .project-card { width: 280px; background: #fff; border-radius:12px; box-shadow: 0 3px 8px rgba(0,0,0,0.1); padding: 1rem; transition: transform 0.2s; cursor:pointer; }
   .project-card:hover { transform: translateY(-5px); }
@@ -23,74 +24,114 @@
   @media (max-width:800px){.project-grid{flex-direction:column;align-items:center;}}
 </style>
 
-<h1 class="portfolio-title">🌎 Shawn Preston | GIS & Remote Sensing Scientist</h1>
+<h1>🌎 Explore My Portfolio</h1>
+<p class="section-desc">This portfolio shows maps, data visualizations, animations, dashboards, and infographics I've created to connect science to action.</p>
 
+<!-- MAPS SECTION -->
+<h2>🗺️ Maps</h2>
 <div class="project-grid">
 
-  <!-- VIIRS project: show PNG thumbnail, open PDF -->
   <div class="project-card" onclick="window.open('assets/UHI_VIIRS.pdf', '_blank')">
     <img src="assets/UHI Impacts-NOAA Work.png" alt="VIIRS UHI Intensity thumbnail" loading="lazy">
     <div class="project-title">🛰️ VIIRS UHI Intensity</div>
     <div class="project-description">Urban Heat Island analysis using nighttime lights (PDF report).</div>
-    <a href="https://github.com/shawnatwsu/NOAA-PATHWAY-PROJECT-2025_UHI" class="button">GitHub ↗</a>
   </div>
 
   <div class="project-card" onclick="window.open('assets/texas_storm_panel.png', '_blank')">
     <img src="assets/texas_storm_panel.png" alt="Texas winter storm radiance panel" loading="lazy">
     <div class="project-title">❄️ Texas Winter Storm</div>
     <div class="project-description">Storm radiance impacts correlated with poverty.</div>
-    <a href="https://github.com/shawnatwsu/2021_Texas_Storm" class="button">GitHub ↗</a>
   </div>
 
   <div class="project-card" onclick="window.open('assets/map1.pdf', '_blank')">
     <img src="assets/map1-1.png" alt="South Carolina wildfires burn severity map" loading="lazy">
     <div class="project-title">🔥 SC Wildfires 2025</div>
     <div class="project-description">Burn severity mapping with Sentinel-2 & VIIRS.</div>
-    <a href="https://github.com/shawnatwsu/airquality/blob/main/aq_SouthCarolina" class="button">GEE Script ↗</a>
   </div>
 
   <div class="project-card" onclick="window.open('assets/marchpnw.png', '_blank')">
     <img src="assets/marchpnw.png" alt="PNW heatwave anomaly map" loading="lazy">
     <div class="project-title">🌡️ PNW Heatwave 2025</div>
     <div class="project-description">GridMET anomaly analysis of extreme heat.</div>
-    <a href="https://github.com/shawnatwsu/MarchHeatPNW" class="button">GitHub ↗</a>
   </div>
 
-  <!-- Earth Day pair -->
-  <div class="project-card" onclick="window.open('assets/Earth Day 2025 Anomaly.gif', '_blank')">
-    <img src="assets/Earth Day 2025 Global.gif" alt="Earth Day anomaly and global views" loading="lazy">
-    <div class="project-title">🌎 Earth Day 2025 Anomalies</div>
-    <div class="project-description">Global and anomaly visualizations of April 22, 2025.</div>
-    <a href="https://github.com/shawnatwsu/earthday2025/tree/main" class="button">GitHub ↗</a>
+  <div class="project-card" onclick="window.open('assets/Kerr County Flood 2025.png', '_blank')">
+    <img src="assets/Kerr County Flood 2025 Stats.png" alt="Kerr County flood 2025" loading="lazy">
+    <div class="project-title">🌊 Kerr County Flood 2025</div>
+    <div class="project-description">Flood extent and statistics from Kerr County, TX.</div>
   </div>
+
+</div>
+
+<!-- DATA VIZ SECTION -->
+<h2>📊 Data Visualization</h2>
+<div class="project-grid">
 
   <div class="project-card" onclick="window.open('assets/Climate Impacts on Apples.png', '_blank')">
     <img src="assets/combined_panel_clean.png" alt="Apple climate metrics figure" loading="lazy">
     <div class="project-title">🍎 Apple Climate Metrics</div>
     <div class="project-description">Historical impacts on apple production.</div>
-    <a href="https://github.com/shawnatwsu/Changing-Climate-Risks-for-High-Value-Tree-Fruit-Production-across-the-United-States" class="button">GitHub ↗</a>
   </div>
 
   <div class="project-card" onclick="window.open('assets/CESM2-LE Impacts on Apples.png', '_blank')">
     <img src="assets/combined_panel_6.png" alt="CESM2 apple metrics figure" loading="lazy">
     <div class="project-title">🌤️ CESM2 Apple Metrics</div>
     <div class="project-description">Temperature shifts affecting apple-growing regions using CESM2-LE.</div>
-    <a href="https://github.com/shawnatwsu/Projected-Changes-in-Climate-Conditions-Affecting-U.S.-Apple-Production-Using-Large-Ensembles" class="button">GitHub ↗</a>
   </div>
 
-  <!-- Kerr County pair -->
-  <div class="project-card" onclick="window.open('assets/Kerr County Flood 2025.png', '_blank')">
-    <img src="assets/Kerr County Flood 2025 Stats.png" alt="Kerr County flood 2025" loading="lazy">
-    <div class="project-title">🌊 Kerr County Flood 2025</div>
-    <div class="project-description">Flood extent and statistics from Kerr County, TX.</div>
-    <a href="https://github.com/shawnatwsu/KerrFlood2025" class="button">GitHub ↗</a>
+</div>
+
+<!-- GIF SECTION -->
+<h2>🎞️ Animations (GIFs)</h2>
+<div class="project-grid">
+
+  <div class="project-card" onclick="window.open('assets/Earth Day 2025 Anomaly.gif', '_blank')">
+    <img src="assets/Earth Day 2025 Global.gif" alt="Earth Day animation" loading="lazy">
+    <div class="project-title">🌎 Earth Day 2025</div>
+    <div class="project-description">Global anomaly animations showing April 22, 2025.</div>
   </div>
 
   <div class="project-card" onclick="window.open('assets/greenhouse_invaders.gif', '_blank')">
-    <img src="assets/greenhouse_invaders.gif" alt="Greenhouse Invaders educational game screenshot" loading="lazy">
+    <img src="assets/greenhouse_invaders.gif" alt="Greenhouse Invaders educational game" loading="lazy">
     <div class="project-title">🎮 Greenhouse Invaders</div>
-    <div class="project-description">Educational game on greenhouse gases.</div>
-    <a href="https://github.com/shawnatwsu/Greenhouse-Invaders" class="button">GitHub ↗</a>
+    <div class="project-description">Educational GIF/game on greenhouse gases.</div>
+  </div>
+
+</div>
+
+<!-- INTERACTIVE VISUALIZATIONS SECTION -->
+<h2>🖥️ Interactive Visualizations</h2>
+<div class="project-grid">
+
+  <div class="project-card" onclick="window.open('https://hazardapp.replit.app/', '_blank')">
+    <img src="assets/profile.jpg" alt="HazardApp dashboard placeholder" loading="lazy">
+    <div class="project-title">⚡ HazardApp Dashboard</div>
+    <div class="project-description">Interactive hazard monitoring dashboard prototype.</div>
+    <a href="https://hazardapp.replit.app/" class="button">Launch ↗</a>
+  </div>
+
+</div>
+
+<!-- INFOGRAPHICS SECTION -->
+<h2>📰 Infographics</h2>
+<div class="project-grid">
+
+  <div class="project-card">
+    <img src="assets/Thesis Defense.jpg" alt="Thesis defense infographic" loading="lazy">
+    <div class="project-title">📑 Thesis Infographic</div>
+    <div class="project-description">Infographic summarizing my thesis defense results.</div>
+  </div>
+
+</div>
+
+<!-- VIDEOS SECTION -->
+<h2>🎥 Videos</h2>
+<div class="project-grid">
+
+  <div class="project-card">
+    <img src="assets/MIT Visit.jpg" alt="Video placeholder" loading="lazy">
+    <div class="project-title">📹 Video Showcase</div>
+    <div class="project-description">Coming at a later date...</div>
   </div>
 
 </div>
