@@ -1,89 +1,110 @@
-/* ===== Two Column Layout ===== */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin-top: 2rem;
+/* ===== General Styles ===== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3fbfb;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
 }
 
-.left-column {
-  flex: 1;
-  max-width: 300px;
-  text-align: center;
-}
-
-.left-column img {
-  width: 220px;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.right-column {
-  flex: 2;
-  min-width: 300px;
-}
-
-/* ===== Header Nav ===== */
-nav {
+/* ===== Header/Nav ===== */
+header {
+  background: #ffffffdd;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   position: sticky;
   top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #ffffffdd;
-  backdrop-filter: blur(8px);
-  padding: 1rem 2rem;
-  border-bottom: 1px solid #ccc;
 }
 
-nav .nav-left {
+.nav-left {
   font-size: 1.2rem;
-  font-weight: bold;
-  color: var(--clr-primary);
+  font-weight: 600;
+  color: #007bff;
 }
 
-nav .nav-right a {
-  margin-left: 1rem;
+.nav-right a {
+  margin-left: 1.2rem;
   text-decoration: none;
-  font-weight: bold;
-  color: var(--clr-secondary);
-  transition: color var(--transition);
-}
-nav .nav-right a:hover {
-  color: var(--clr-accent);
+  font-weight: 500;
+  color: #333;
+  transition: color 0.2s ease;
 }
 
-/* ===== Softer Background ===== */
-body {
-  background: #f3fbfb;
+.nav-right a:hover {
+  color: #007bff;
 }
+
 /* ===== Two Column Layout ===== */
 .container {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  margin-top: 2rem;
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
+
 .left-column {
   flex: 1;
-  max-width: 300px;
+  max-width: 280px;
   text-align: center;
 }
+
 .left-column img {
-  width: 220px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
   border-radius: 50%;
   margin-bottom: 1rem;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
+
+.left-column h2 {
+  margin: 0.5rem 0 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.buttons button {
+  padding: 0.5rem;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.buttons button:hover {
+  background: #0056b3;
+}
+
 .right-column {
-  flex: 2;
+  flex: 3;
   min-width: 300px;
 }
 
-/* ===== Softer Background ===== */
-body { background: #f3fbfb; }
+section {
+  margin-bottom: 2rem;
+}
 
-/* Optional: keep your existing nav styles; this only adds labels */
-.nav-left { font-weight: 700; color: var(--clr-primary); }
-.nav-right a { margin-left: 1rem; }
+h2 {
+  margin-bottom: 0.5rem;
+  color: #007bff;
+}
