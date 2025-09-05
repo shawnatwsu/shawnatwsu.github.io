@@ -18,6 +18,7 @@
       <a href="https://linkedin.com/in/shawnxprestonms"><button>LinkedIn</button></a>
       <a href="https://twitter.com/shawn_dabblez"><button>Twitter</button></a>
       <a href="https://www.researchgate.net/publication/385719286_Changing_climate_risks_for_high-value_tree_fruit_production_across_the_United_States"><button>Research Gate</button></a>
+    </div>
   </div>
 
   <div class="right-column">
