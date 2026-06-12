@@ -1,11 +1,14 @@
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap">
 
 <header>
   <div class="nav-container">
-    <div class="nav-left">🌎 Shawn Preston</div>
+    <div class="nav-left">🌌 Shawn Preston</div>
     <div class="nav-right">
       <a href="index.html">Home</a>
       <a href="portfolio.html">Portfolio</a>
+      <a href="cascadia.html">Cascadia</a>
+      <a href="https://hazardapp.replit.app/">HazardApp</a>
     </div>
   </div>
 </header>
@@ -26,18 +29,18 @@
 
   <!-- Right Column -->
   <div class="right-column">
-    <section>
+    <section class="reveal">
       <h2>About Me</h2>
       <p>
         I am a climate, remote sensing, and GIS scientist with an M.S. in Environmental Science.
         I have worked with <b>NASA, NOAA, USGS, and Washington State University</b>, analyzing hazards such as wildfire spread, extreme heat, stormwater events, and agricultural resilience.
       </p>
       <p>
-        Based in the Pacific Northwest, I enjoy working with satellite data, building visualizations, and translating complex climate science into actionable insights.
+        Based in the Pacific Northwest, I enjoy working with satellite data, building visualizations, and translating complex climate science into actionable insights. My latest project, <a href="cascadia.html"><b>Cascadia</b></a>, is an open-source compound multi-hazard engine for the entire US.
       </p>
     </section>
 
-    <section>
+    <section class="reveal">
       <h2>Education</h2>
       <p><b>Washington State University</b>, Vancouver, WA<br>
       M.S. Environmental Science – July 2024<br>
@@ -47,7 +50,7 @@
       GIScience Graduate Certificate (Expected July 2025)</p>
     </section>
 
-    <section>
+    <section class="reveal">
       <h2>Professional Experience</h2>
       <p><b>NOAA – National Oceanic and Atmospheric Administration</b><br>
       Physical Scientist (Student Trainee) | Jul 2024 – Feb 2025</p>
@@ -65,7 +68,7 @@
       Graduate Teaching Assistant | Aug 2020 – May 2021</p>
     </section>
 
-    <section>
+    <section class="reveal">
       <h2>Skills</h2>
       <p><b>Programming:</b> Python, R, Google Earth Engine, JavaScript, SQL, Bash</p>
       <p><b>GIS & Remote Sensing:</b> ArcGIS Pro, QGIS, ENVI, NCL, CDO, Cartopy, GeoPandas</p>
@@ -75,3 +78,9 @@
     </section>
   </div>
 </div>
+
+<footer>
+  <p>© 2026 Shawn Preston · <a href="https://github.com/shawnatwsu">GitHub</a> · <a href="https://linkedin.com/in/shawnxprestonms">LinkedIn</a> · <a href="mailto:shawnxpreston@gmail.com">Email</a></p>
+</footer>
+
+<script src="cosmic.js"></script>

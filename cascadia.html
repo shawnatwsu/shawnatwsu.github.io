@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cascadia · Shawn Preston</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+</head>
+<body>
+
+<header>
+  <div class="nav-container">
+    <div class="nav-left">🌌 Shawn Preston</div>
+    <div class="nav-right">
+      <a href="/">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="cascadia.html">Cascadia</a>
+      <a href="https://hazardapp.replit.app/">HazardApp</a>
+    </div>
+  </div>
+</header>
+
+<div class="page">
+
+  <h1 class="aurora">🌎 Cascadia</h1>
+  <p class="section-desc">
+    A compound &amp; cascading multi-hazard engine. <b>Six natural hazards on one map</b> — flood ·
+    earthquake · wildfire · landslide · heat · wildfire-smoke — from 100% free public data, for any US
+    address up to the whole country. Built on a probabilistic <b>cascade graph</b> (hazards can trigger
+    one another) and honest about its measured skill.
+  </p>
+
+  <div class="cta-row" style="justify-content:center; margin-bottom:0.6rem;">
+    <a href="https://github.com/shawnatwsu/cascadia" class="button">View on GitHub ↗</a>
+    <a href="portfolio.html" class="button" style="background:linear-gradient(90deg,#2b3566,#3a4790)">← Back to portfolio</a>
+  </div>
+
+  <div class="pill-row">
+    <span class="pill">Python</span>
+    <span class="pill">Gradient boosting + physics</span>
+    <span class="pill">Probabilistic cascade graph</span>
+    <span class="pill">USGS · NOAA · NASA FIRMS · GRIDMET · Census</span>
+    <span class="pill">Bootstrap-validated</span>
+    <span class="pill">MIT licensed</span>
+  </div>
+
+  <p class="section-desc" style="font-size:0.85rem; color:var(--ink-faint);">
+    ⚠️ Research prototype — not for operational or life-safety decisions. Defer to NWS, USGS, FEMA, and
+    local emergency management.
+  </p>
+
+  <!-- EXAMPLE OUTPUTS -->
+  <h2 class="reveal">See it in action</h2>
+
+  <figure class="showcase-fig reveal">
+    <img src="assets/cascadia/conus_conditions.png" alt="National six-hazard nowcast across the contiguous US">
+    <figcaption><b>National six-hazard nowcast</b> — a 4&nbsp;km snapshot of all six hazards across the contiguous US. <code>run.ps1 conditions conus</code></figcaption>
+  </figure>
+
+  <figure class="showcase-fig reveal">
+    <img src="assets/cascadia/impact_conus.png" alt="Expected people affected, hazard times population">
+    <figcaption><b>Expected people affected</b> — compound hazard probability × Census population to surface where risk actually meets people. <code>run.ps1 impact conus</code></figcaption>
+  </figure>
+
+  <figure class="showcase-fig reveal">
+    <img src="assets/cascadia/parcel_report.png" alt="Address-level multi-hazard report">
+    <figcaption><b>Address-level report</b> — drill from the nation down to any single US address. <code>run.ps1 parcel "&lt;address&gt;"</code></figcaption>
+  </figure>
+
+  <figure class="showcase-fig reveal">
+    <img src="assets/cascadia/seasonal_outlook.png" alt="ENSO seasonal outlook, labeled as a weak signal">
+    <figcaption><b>ENSO seasonal outlook</b> — honestly labeled as a weak signal. <code>run.ps1 seasonal</code></figcaption>
+  </figure>
+
+  <!-- HOW IT WORKS -->
+  <h2 class="reveal">How it works</h2>
+  <p class="section-desc reveal">
+    Open feeds → a CONUS-clipped spatial grid → per-hazard predictors (ML + physics) → a
+    <b>cascade graph</b> where probabilities propagate through trigger edges
+    (quake→landslide→flood, fire→smoke, heat→fire) via noisy-OR → a compound-risk surface, then ×
+    population for exposure.
+  </p>
+  <div class="pill-row reveal">
+    <span class="pill">flood — calibrated gradient-boosting (isotonic)</span>
+    <span class="pill">earthquake — USGS smoothed-seismicity Poisson prior</span>
+    <span class="pill">wildfire — GRIDMET fire-danger indices</span>
+    <span class="pill">landslide — USGS susceptibility × rainfall × relief</span>
+    <span class="pill">heat — heat index + wet-bulb</span>
+    <span class="pill">smoke — downwind plume transport</span>
+  </div>
+
+  <!-- VALIDATION -->
+  <h2 class="reveal">Does it actually work?</h2>
+  <p class="section-desc reveal">Every number reproduces with one command — independent labels, matched non-events, bootstrap confidence intervals.</p>
+  <table class="skill-table reveal">
+    <thead>
+      <tr><th>Test</th><th>Result</th><th>Caveat</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Flood vs 100 real NWS flood events</td><td>ROC-AUC 0.715 (0.73 same-season control)</td><td>daily grid under-resolves flash floods</td></tr>
+      <tr><td>Flood lead time</td><td>skill holds to 7 days, then decays</td><td>ERA5 ≈ a perfect precip forecast</td></tr>
+      <tr><td>Wildfire vs 80 satellite (FIRMS) fires</td><td>ROC-AUC 0.71 same-season</td><td>danger is diagnostic, not a forecast</td></tr>
+      <tr><td>Flood calibration (out-of-fold)</td><td>AUC 0.95, Brier skill +0.51, on-diagonal</td><td>in-distribution</td></tr>
+      <tr><td>Does the cascade add skill?</td><td>honest negative — CI spans 0</td><td>crude single-day transport proxy</td></tr>
+      <tr><td>ENSO → US seasons</td><td>r ≈ 0.4 but RPSS ≈ 0</td><td>weak predictor — labeled as such</td></tr>
+    </tbody>
+  </table>
+
+  <h2 class="reveal">Validation figures</h2>
+
+  <figure class="showcase-fig reveal">
+    <img src="assets/cascadia/flood_performance.png" alt="Flood model performance on independent events">
+    <figcaption><b>Flood</b> on 100 independent NWS events with matched non-events.</figcaption>
+  </figure>
+  <figure class="showcase-fig reveal">
+    <img src="assets/cascadia/flood_leadtime.png" alt="Flood skill vs forecast lead time">
+    <figcaption><b>Lead time</b> — skill holds out to ~7 days, then decays.</figcaption>
+  </figure>
+  <figure class="showcase-fig reveal">
+    <img src="assets/cascadia/fire_performance.png" alt="Wildfire danger discrimination performance">
+    <figcaption><b>Wildfire</b> danger discrimination against satellite-detected fires.</figcaption>
+  </figure>
+  <figure class="showcase-fig reveal">
+    <img src="assets/cascadia/cascade_skill.png" alt="Cascade validation, an honest negative result">
+    <figcaption><b>The cascade itself</b> — an honest negative: the current single-day transport proxy doesn't yet beat the baseline.</figcaption>
+  </figure>
+  <figure class="showcase-fig reveal">
+    <img src="assets/cascadia/flood_calibration.png" alt="Flood probability calibration reliability">
+    <figcaption><b>Calibration</b> — out-of-fold reliability sits on the diagonal.</figcaption>
+  </figure>
+  <figure class="showcase-fig reveal">
+    <img src="assets/cascadia/enso_skill.png" alt="ENSO seasonal skill">
+    <figcaption><b>ENSO</b> — a real but weak seasonal signal, reported honestly.</figcaption>
+  </figure>
+
+  <div class="cta-row" style="justify-content:center; margin-top:2.5rem;">
+    <a href="https://github.com/shawnatwsu/cascadia" class="button">Explore the code on GitHub ↗</a>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Shawn Preston · <a href="https://github.com/shawnatwsu">GitHub</a> · <a href="https://linkedin.com/in/shawnxprestonms">LinkedIn</a> · <a href="mailto:shawnxpreston@gmail.com">Email</a></p>
+</footer>
+
+<script src="cosmic.js"></script>
+</body>
+</html>

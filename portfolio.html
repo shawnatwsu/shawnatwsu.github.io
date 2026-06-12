@@ -1,175 +1,157 @@
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio · Shawn Preston</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+</head>
+<body>
 
 <header>
   <div class="nav-container">
-    <div class="nav-left">🌎 Shawn Preston</div>
+    <div class="nav-left">🌌 Shawn Preston</div>
     <div class="nav-right">
       <a href="/">Home</a>
       <a href="portfolio.html">Portfolio</a>
+      <a href="cascadia.html">Cascadia</a>
       <a href="https://hazardapp.replit.app/">HazardApp</a>
     </div>
   </div>
 </header>
 
-<style>
-  header {
-    background-color: #ffffffee;
-    backdrop-filter: blur(6px);
-    border-bottom: 1px solid #ddd;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  .nav-container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0.8rem 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .nav-left {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #007bff;
-  }
-  .nav-right a {
-    margin-left: 1.2rem;
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-    transition: color 0.2s ease;
-  }
-  .nav-right a:hover {
-    color: #007bff;
-  }
-</style>
+<div class="page">
 
+  <h1 class="aurora">Explore My Portfolio</h1>
+  <p class="section-desc">Maps, data visualizations, animations, dashboards, and models I've built to connect Earth-system science to action.</p>
 
-<style>
-  body { font-family: 'Inter', sans-serif; background-color: #f0f4f8; margin:0; padding:1rem; }
-  h1, h2 { text-align:center; margin: 2rem 0 1rem; }
-  .section-desc { text-align:center; margin-bottom: 2rem; color:#555; }
-  .project-grid { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
-  .project-card { width: 280px; background: #fff; border-radius:12px; box-shadow: 0 3px 8px rgba(0,0,0,0.1); padding: 1rem; transition: transform 0.2s; cursor:pointer; }
-  .project-card:hover { transform: translateY(-5px); }
-  .project-card img { border-radius:8px; width:100%; height:160px; object-fit:cover; }
-  .project-title { margin-top:0.5rem; font-size:16px; font-weight:600; }
-  .project-description { font-size:13px; color:#555; margin:0.5rem 0; }
-  .button { display:inline-block; margin-top:0.5rem; padding: 4px 8px; background:#007bff; color:#fff; text-decoration:none; border-radius:4px; font-size:13px; }
-  @media (max-width:800px){.project-grid{flex-direction:column;align-items:center;}}
-</style>
+  <!-- FEATURED: CASCADIA -->
+  <section class="featured reveal">
+    <div class="featured-card">
+      <div>
+        <span class="tag">Featured · Open Source</span>
+        <h2 class="aurora">Cascadia</h2>
+        <p>A compound &amp; cascading multi-hazard engine — flood, earthquake, wildfire, landslide, heat, and smoke on one map, from 100% free public data, for any US address up to the whole country. Built on a probabilistic cascade graph and validated against independent events.</p>
+        <div class="cta-row">
+          <a href="cascadia.html" class="button">View showcase →</a>
+          <a href="https://github.com/shawnatwsu/cascadia" class="button" style="background:linear-gradient(90deg,#2b3566,#3a4790)">GitHub ↗</a>
+        </div>
+      </div>
+      <img src="assets/cascadia/conus_conditions.png" alt="Cascadia national six-hazard conditions map" loading="lazy">
+    </div>
+  </section>
 
-<h1>🌎 Explore My Portfolio</h1>
-<p class="section-desc">This portfolio shows maps, data visualizations, animations, dashboards, and videos I've created to connect science to action.</p>
+  <!-- MAPS SECTION -->
+  <h2 class="reveal">🗺️ Maps</h2>
+  <div class="project-grid reveal">
 
-<!-- MAPS SECTION -->
-<h2>🗺️ Maps</h2>
-<div class="project-grid">
+    <div class="project-card" onclick="window.open('assets/UHI_VIIRS.pdf', '_blank')">
+      <img src="assets/UHI Impacts-NOAA Work.png" alt="VIIRS UHI Intensity thumbnail" loading="lazy">
+      <div class="project-title">🛰️ VIIRS UHI Intensity</div>
+      <div class="project-description">Urban Heat Island analysis using nighttime lights (PDF report).</div>
+    </div>
 
-  <div class="project-card" onclick="window.open('assets/UHI_VIIRS.pdf', '_blank')">
-    <img src="assets/UHI Impacts-NOAA Work.png" alt="VIIRS UHI Intensity thumbnail" loading="lazy">
-    <div class="project-title">🛰️ VIIRS UHI Intensity</div>
-    <div class="project-description">Urban Heat Island analysis using nighttime lights (PDF report).</div>
+    <div class="project-card" onclick="window.open('assets/texas_storm_panel.png', '_blank')">
+      <img src="assets/texas_storm_panel.png" alt="Texas winter storm radiance panel" loading="lazy">
+      <div class="project-title">❄️ Texas Winter Storm</div>
+      <div class="project-description">Storm radiance impacts correlated with poverty.</div>
+    </div>
+
+    <div class="project-card" onclick="window.open('assets/map1.pdf', '_blank')">
+      <img src="assets/map1-1.png" alt="South Carolina wildfires burn severity map" loading="lazy">
+      <div class="project-title">🔥 SC Wildfires 2025</div>
+      <div class="project-description">Burn severity mapping with Sentinel-2 &amp; VIIRS.</div>
+    </div>
+
+    <div class="project-card" onclick="window.open('assets/marchpnw.png', '_blank')">
+      <img src="assets/marchpnw.png" alt="PNW heatwave anomaly map" loading="lazy">
+      <div class="project-title">🌡️ PNW Heatwave 2025</div>
+      <div class="project-description">GridMET anomaly analysis of extreme heat.</div>
+    </div>
+
+    <div class="project-card" onclick="window.open('assets/Kerr County Flood 2025.png', '_blank')">
+      <img src="assets/Kerr County Flood 2025 Stats.png" alt="Kerr County flood 2025" loading="lazy">
+      <div class="project-title">🌊 Kerr County Flood 2025</div>
+      <div class="project-description">Flood extent and statistics from Kerr County, TX.</div>
+    </div>
+
   </div>
 
-  <div class="project-card" onclick="window.open('assets/texas_storm_panel.png', '_blank')">
-    <img src="assets/texas_storm_panel.png" alt="Texas winter storm radiance panel" loading="lazy">
-    <div class="project-title">❄️ Texas Winter Storm</div>
-    <div class="project-description">Storm radiance impacts correlated with poverty.</div>
+  <!-- DATA VIZ SECTION -->
+  <h2 class="reveal">📊 Data Visualization</h2>
+  <div class="project-grid reveal">
+
+    <div class="project-card" onclick="window.open('assets/Climate Impacts on Apples.png', '_blank')">
+      <img src="assets/combined_panel_clean.png" alt="Apple climate metrics figure" loading="lazy">
+      <div class="project-title">🍎 Apple Climate Metrics</div>
+      <div class="project-description">Historical impacts on apple production.</div>
+    </div>
+
+    <div class="project-card" onclick="window.open('assets/CESM2-LE Impacts on Apples.png', '_blank')">
+      <img src="assets/combined_panel_6.png" alt="CESM2 apple metrics figure" loading="lazy">
+      <div class="project-title">🌤️ CESM2 Apple Metrics</div>
+      <div class="project-description">Temperature shifts affecting apple-growing regions using CESM2-LE.</div>
+    </div>
+
+    <div class="project-card" onclick="window.open('assets/July 2024 Heat Exposure.png', '_blank')">
+      <img src="assets/July 2024 Heat Exposure Anomaly.png" alt="Heat exposure anomaly map" loading="lazy">
+      <div class="project-title">🔥 July 2024 Heat Exposure</div>
+      <div class="project-description">Heat exposure and anomaly analysis during July 2024.</div>
+    </div>
+
+    <div class="project-card" onclick="window.open('assets/July 2024 Oregon Heat Exposure Analysis.png', '_blank')">
+      <img src="assets/July 2024 Oregon Heat Exposure Analysis.png" alt="Oregon heat exposure map" loading="lazy">
+      <div class="project-title">🌡️ Oregon Heat Exposure</div>
+      <div class="project-description">Regional heat exposure analysis for Oregon, July 2024.</div>
+    </div>
+
   </div>
 
-  <div class="project-card" onclick="window.open('assets/map1.pdf', '_blank')">
-    <img src="assets/map1-1.png" alt="South Carolina wildfires burn severity map" loading="lazy">
-    <div class="project-title">🔥 SC Wildfires 2025</div>
-    <div class="project-description">Burn severity mapping with Sentinel-2 & VIIRS.</div>
+  <!-- GIF SECTION -->
+  <h2 class="reveal">🎞️ Animations</h2>
+  <div class="project-grid reveal">
+
+    <div class="project-card" onclick="window.open('assets/Earth Day 2025 Anomaly.gif', '_blank')">
+      <img src="assets/Earth Day 2025 Global.gif" alt="Earth Day animation" loading="lazy">
+      <div class="project-title">🌎 Earth Day 2025</div>
+      <div class="project-description">Global anomaly animations showing April 22, 2025.</div>
+    </div>
+
+    <div class="project-card" onclick="window.open('assets/greenhouse_invaders.gif', '_blank')">
+      <img src="assets/greenhouse_invaders.gif" alt="Greenhouse Invaders educational game" loading="lazy">
+      <div class="project-title">🎮 Greenhouse Invaders</div>
+      <div class="project-description">Educational GIF/game on greenhouse gases.</div>
+    </div>
+
   </div>
 
-  <div class="project-card" onclick="window.open('assets/marchpnw.png', '_blank')">
-    <img src="assets/marchpnw.png" alt="PNW heatwave anomaly map" loading="lazy">
-    <div class="project-title">🌡️ PNW Heatwave 2025</div>
-    <div class="project-description">GridMET anomaly analysis of extreme heat.</div>
-  </div>
+  <!-- INTERACTIVE VISUALIZATIONS SECTION -->
+  <h2 class="reveal">🖥️ Interactive Visualizations</h2>
+  <div class="project-grid reveal">
 
-  <div class="project-card" onclick="window.open('assets/Kerr County Flood 2025.png', '_blank')">
-    <img src="assets/Kerr County Flood 2025 Stats.png" alt="Kerr County flood 2025" loading="lazy">
-    <div class="project-title">🌊 Kerr County Flood 2025</div>
-    <div class="project-description">Flood extent and statistics from Kerr County, TX.</div>
-  </div>
+    <div class="project-card" onclick="window.open('https://hazardapp.replit.app/', '_blank')">
+      <img src="assets/hazardapp.png" alt="HazardApp dashboard screenshot" loading="lazy">
+      <div class="project-title">⚡ HazardApp Dashboard</div>
+      <div class="project-description">Interactive hazard monitoring dashboard prototype.</div>
+      <a href="https://hazardapp.replit.app/" class="button">Launch ↗</a>
+    </div>
 
-</div>
+    <div class="project-card" onclick="window.open('cascadia.html', '_self')">
+      <img src="assets/cascadia/impact_conus.png" alt="Cascadia expected-impact map" loading="lazy">
+      <div class="project-title">🌐 Cascadia Multi-Hazard Engine</div>
+      <div class="project-description">Six hazards, a probabilistic cascade graph, and honest validation — full showcase.</div>
+      <a href="cascadia.html" class="button">Open showcase →</a>
+    </div>
 
-<!-- DATA VIZ SECTION -->
-<h2>📊 Data Visualization</h2>
-<div class="project-grid">
-
-  <div class="project-card" onclick="window.open('assets/Climate Impacts on Apples.png', '_blank')">
-    <img src="assets/combined_panel_clean.png" alt="Apple climate metrics figure" loading="lazy">
-    <div class="project-title">🍎 Apple Climate Metrics</div>
-    <div class="project-description">Historical impacts on apple production.</div>
-  </div>
-
-  <div class="project-card" onclick="window.open('assets/CESM2-LE Impacts on Apples.png', '_blank')">
-    <img src="assets/combined_panel_6.png" alt="CESM2 apple metrics figure" loading="lazy">
-    <div class="project-title">🌤️ CESM2 Apple Metrics</div>
-    <div class="project-description">Temperature shifts affecting apple-growing regions using CESM2-LE.</div>
-  </div>
-
-  <div class="project-card" onclick="window.open('assets/July 2024 Heat Exposure.png', '_blank')">
-    <img src="assets/July 2024 Heat Exposure Anomaly.png" alt="Heat exposure anomaly map" loading="lazy">
-    <div class="project-title">🔥 July 2024 Heat Exposure</div>
-    <div class="project-description">Heat exposure and anomaly analysis during July 2024.</div>
-  </div>
-
-  <div class="project-card" onclick="window.open('assets/July 2024 Oregon Heat Exposure Analysis.png', '_blank')">
-    <img src="assets/July 2024 Oregon Heat Exposure Analysis.png" alt="Oregon heat exposure map" loading="lazy">
-    <div class="project-title">🌡️ Oregon Heat Exposure</div>
-    <div class="project-description">Regional heat exposure analysis for Oregon, July 2024.</div>
-  </div>
-
-</div>
-
-<!-- GIF SECTION -->
-<h2>🎞️ Animations (GIFs)</h2>
-<div class="project-grid">
-
-  <div class="project-card" onclick="window.open('assets/Earth Day 2025 Anomaly.gif', '_blank')">
-    <img src="assets/Earth Day 2025 Global.gif" alt="Earth Day animation" loading="lazy">
-    <div class="project-title">🌎 Earth Day 2025</div>
-    <div class="project-description">Global anomaly animations showing April 22, 2025.</div>
-  </div>
-
-  <div class="project-card" onclick="window.open('assets/greenhouse_invaders.gif', '_blank')">
-    <img src="assets/greenhouse_invaders.gif" alt="Greenhouse Invaders educational game" loading="lazy">
-    <div class="project-title">🎮 Greenhouse Invaders</div>
-    <div class="project-description">Educational GIF/game on greenhouse gases.</div>
   </div>
 
 </div>
 
-<!-- INTERACTIVE VISUALIZATIONS SECTION -->
-<h2>🖥️ Interactive Visualizations</h2>
-<div class="project-grid">
+<footer>
+  <p>© 2026 Shawn Preston · <a href="https://github.com/shawnatwsu">GitHub</a> · <a href="https://linkedin.com/in/shawnxprestonms">LinkedIn</a> · <a href="mailto:shawnxpreston@gmail.com">Email</a></p>
+</footer>
 
-  <div class="project-card" onclick="window.open('https://hazardapp.replit.app/', '_blank')">
-    <img src="assets/hazardapp.png" alt="HazardApp dashboard screenshot" loading="lazy">
-    <div class="project-title">⚡ HazardApp Dashboard</div>
-    <div class="project-description">Interactive hazard monitoring dashboard prototype.</div>
-    <a href="https://hazardapp.replit.app/" class="button">Launch ↗</a>
-  </div>
-
-</div>
-
-<!-- VIDEOS SECTION -->
-<h2>🎥 Videos</h2>
-<div class="project-grid">
-
-  <div class="project-card">
-    <img src="assets/MIT Visit.jpg" alt="Video placeholder" loading="lazy">
-    <div class="project-title">📹 Video Showcase</div>
-    <div class="project-description">Coming at a later date...</div>
-  </div>
-
-</div>
+<script src="cosmic.js"></script>
+</body>
+</html>
