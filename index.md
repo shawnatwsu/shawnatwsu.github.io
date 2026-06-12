@@ -8,7 +8,7 @@
       <a href="index.html">Home</a>
       <a href="portfolio.html">Portfolio</a>
       <a href="cascadia.html">Cascadia</a>
-      <a href="https://hazardapp.replit.app/">HazardApp</a>
+      <a href="https://shawnatwsu.github.io/HazardApp/">HazardApp</a>
     </div>
   </div>
 </header>
