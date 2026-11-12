@@ -1,0 +1,11 @@
+---
+import Shell from '../layouts/Shell.astro';
+const tests=[
+['Flood discrimination','Across 100 independent NWS events, ROC-AUC was 0.715, or 0.73 with same-season controls. Daily inputs can miss short-lived flash flooding.','flood_performance_sameseason'],
+['Flood lead time','Skill held to seven days in the retrospective experiment. It used ERA5 precipitation, so real forecast errors could shorten that horizon.','flood_leadtime'],
+['Fire danger','Against 80 FIRMS fires with seasonally matched controls, wildfire ROC-AUC was 0.71. This measures whether the score distinguishes conditions associated with observed fires.','fire_performance_sameseason'],
+['Flood calibration','Out-of-fold ROC-AUC reached 0.95 and Brier skill was +0.51 within the training distribution. The independent-event evaluation above addresses a different question.','flood_calibration'],
+['Cascade skill','The cascade won six of eleven smoke episodes. The confidence interval for the difference spans zero.','cascade_skill'],
+['Seasonal outlook','The ENSO comparison gave a correlation near 0.4 but ranked probability skill near zero. Seasonal probabilities remain exploratory.','enso_skill']];
+---
+<Shell title="Cascadia validation"><article class="wrap section"><a href="/projects/cascadia.html">← Cascadia case study</a><h1>Testing Cascadia</h1><p class="intro">How well do retrospective hazard scores separate observed events from matched non-events?</p><p class="evidence">These are the project’s reported experiments. The repository provides the methods and reproduction commands. Cascadia is a research prototype. Use official warnings for emergency decisions.</p><a href="https://github.com/shawnatwsu/cascadia">Methods & source code ↗</a><div class="cards results">{tests.map(([title,body,fig])=><article class="feature"><small>Validation</small><h3>{title}</h3><p>{body}</p><a href={'/assets/cascadia/'+fig+'.png'}>View {title.toLowerCase()} figure ↗</a></article>)}</div><h2>Model outputs</h2><div class="actions">{[['National exposure','impact_conus'],['Parcel report','parcel_report'],['Seasonal outlook','seasonal_outlook']].map(([label,fig])=><a href={'/assets/cascadia/'+fig+'.png'}>{label} ↗</a>)}</div></article></Shell>

@@ -1,0 +1,68 @@
+[
+  {
+    "title": "VIIRS UHI Intensity",
+    "desc": "Urban Heat Island analysis using nighttime lights (PDF report).",
+    "href": "/assets/UHI_VIIRS.pdf",
+    "image": "/media/map-1.webp"
+  },
+  {
+    "title": "Texas Winter Storm",
+    "desc": "Storm radiance impacts correlated with poverty.",
+    "href": "/assets/texas_storm_panel.png",
+    "image": "/media/map-2.webp"
+  },
+  {
+    "title": "SC Wildfires 2025",
+    "desc": "Burn severity mapping with Sentinel-2 & VIIRS.",
+    "href": "/assets/map1.pdf",
+    "image": "/media/map-3.webp"
+  },
+  {
+    "title": "PNW Heatwave 2025",
+    "desc": "GridMET anomaly analysis of extreme heat.",
+    "href": "/assets/marchpnw.png",
+    "image": "/media/map-4.webp"
+  },
+  {
+    "title": "Kerr County Flood 2025",
+    "desc": "Flood extent and statistics from Kerr County, TX.",
+    "href": "/assets/Kerr County Flood 2025.png",
+    "image": "/media/map-5.webp"
+  },
+  {
+    "title": "Apple Climate Metrics",
+    "desc": "Historical impacts on apple production.",
+    "href": "/assets/Climate Impacts on Apples.png",
+    "image": "/media/map-6.webp"
+  },
+  {
+    "title": "CESM2 Apple Metrics",
+    "desc": "Temperature shifts affecting apple-growing regions using CESM2-LE.",
+    "href": "/assets/CESM2-LE Impacts on Apples.png",
+    "image": "/media/map-7.webp"
+  },
+  {
+    "title": "July 2024 Heat Exposure",
+    "desc": "Heat exposure and anomaly analysis during July 2024.",
+    "href": "/assets/July 2024 Heat Exposure.png",
+    "image": "/media/map-8.webp"
+  },
+  {
+    "title": "Oregon Heat Exposure",
+    "desc": "Regional heat exposure analysis for Oregon, July 2024.",
+    "href": "/assets/July 2024 Oregon Heat Exposure Analysis.png",
+    "image": "/media/map-9.webp"
+  },
+  {
+    "title": "Earth Day 2025",
+    "desc": "Global anomaly animations showing April 22, 2025.",
+    "href": "/assets/Earth Day 2025 Anomaly.gif",
+    "image": "/media/map-10.webp"
+  },
+  {
+    "title": "Greenhouse Invaders",
+    "desc": "Educational GIF/game on greenhouse gases.",
+    "href": "/assets/greenhouse_invaders.gif",
+    "image": "/media/map-11.webp"
+  }
+]

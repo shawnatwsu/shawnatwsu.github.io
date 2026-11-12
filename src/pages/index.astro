@@ -1,0 +1,8 @@
+---
+import Shell from '../layouts/Shell.astro';
+import Globe from '../components/Globe.astro';
+import {projects} from '../projects.js';
+---
+<Shell title="GIS development & climate research"><section class="hero"><div class="wrap hero-grid"><div><small><i></i> GIS DEVELOPMENT & CLIMATE RESEARCH</small><h1>Mapping a<br/><em>changing Earth.</em></h1><p class="intro">I’m Shawn Preston. I build geospatial tools to study wildfires, extreme heat and the places where hazards overlap.</p><div class="actions"><a class="button" href="#projects">Explore projects ↓</a><a class="quiet" href="https://github.com/shawnatwsu">View GitHub ↗</a></div></div><Globe/></div></section>
+<section class="wrap section" id="projects"><div class="heading"><div><small>HAZARD APPLICATIONS</small><h2>Featured projects</h2></div><a href="/portfolio.html">Map portfolio ↗</a></div><div class="cards">{projects.map(p=><a class="card" href={'/projects/'+p.slug+'.html'}><div class={'thumb '+p.slug}><img src={'/media/'+p.image+'.webp'} alt={p.alt} loading="lazy"/></div><div class="pad"><small>{p.category}</small><h3>{p.name} <span>↗</span></h3><p>{p.summary}</p></div></a>)}</div></section>
+<section class="wrap section"><small>FIELD & LAB</small><h2>Beyond the dashboards</h2><div class="duo"><a class="feature" href="/portfolio.html"><h3>GIS & automation ↗</h3><p>Satellite observations, storm impacts and reproducible mapping workflows.</p></a><a class="feature" href="/research.html"><h3>Climate research ↗</h3><p>Heat, winter chill and the changing climate of U.S. apple-growing regions.</p></a></div></section></Shell>

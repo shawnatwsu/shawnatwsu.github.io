@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "astro": "5.18.2",
+    "three": "0.180.0"
+  },
+  "name": "shawn-preston-portfolio",
+  "type": "module",
+  "scripts": {
+    "build": "astro build",
+    "dev": "astro dev",
+    "preview": "astro preview"
+  },
+  "private": true
+}

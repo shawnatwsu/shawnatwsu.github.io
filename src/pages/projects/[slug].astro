@@ -1,0 +1,8 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import {projects} from '../../projects.js';
+export function getStaticPaths(){return projects.map(project=>({params:{slug:project.slug},props:{project}}))}
+const {project:p}=Astro.props;
+const original={cascadia:'cascadia/conus_conditions.png',wildfireiq:'wildfireiq.png',nexus:'nexus-hazard.png'}[p.slug];
+---
+<Shell title={p.name} description={p.summary}><article class="wrap section"><a class="back" href="/#projects">← Featured projects</a><small>{p.category}</small><h1>{p.name}</h1><p class="intro">{p.summary}</p><div class="actions"><a class="button" href={p.more}>{p.action} ↗</a><a href={'https://github.com/shawnatwsu/'+p.repo}>Source on GitHub ↗</a></div><div class="case"><figure><a href={'/assets/'+original}><img src={'/media/'+p.image+'.webp'} alt={p.alt}/></a><figcaption>{p.alt} · Open full resolution</figcaption></figure><div><h2>{p.question}</h2><p>{p.method}</p><h3>What it shows</h3><p>{p.result}</p><h3>Limits</h3><p>{p.limit}</p></div></div></article></Shell>

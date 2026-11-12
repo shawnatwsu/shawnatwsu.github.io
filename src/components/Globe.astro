@@ -1,0 +1,24 @@
+<figure class="instrument"><div class="scope"><div class="orbit"></div><div class="earth"><img src="/media/globe.webp" alt="Pacific hemisphere from Shawn Preston’s NEXUS hazard monitor" width="560" height="560" fetchpriority="high"/><canvas aria-hidden="true"></canvas></div></div><figcaption><span class="dot"></span>NEXUS <span>/</span> Pacific hemisphere <a href="/projects/nexus.html" aria-label="Explore NEXUS">↗</a></figcaption></figure>
+<script>
+const sceneEl=document.querySelector<HTMLElement>('.earth')!;
+const motion=matchMedia('(prefers-reduced-motion: reduce)');
+if(!motion.matches && matchMedia('(pointer:fine)').matches){
+  sceneEl.addEventListener('pointerenter',async()=>{
+    try {
+      const T=await import('three');
+      const canvas=sceneEl.querySelector('canvas')!;
+      const renderer=new T.WebGLRenderer({canvas,alpha:true,antialias:true});
+      renderer.setPixelRatio(Math.min(devicePixelRatio,1.5)); renderer.setSize(440,440,false);
+      const scene=new T.Scene(), camera=new T.OrthographicCamera(-1,1,1,-1,.1,10); camera.position.z=3;
+      const geometry=new T.SphereGeometry(1,80,48);
+      const positions=geometry.attributes.position, uv=geometry.attributes.uv;
+      for(let i=0;i<positions.count;i++) uv.setXY(i,.5+positions.getX(i)/2,.5+positions.getY(i)/2);
+      const texture=await new T.TextureLoader().loadAsync('/media/globe.webp'); texture.colorSpace=T.SRGBColorSpace;
+      const globe=new T.Mesh(geometry,new T.MeshBasicMaterial({map:texture}));scene.add(globe);
+      const render=(x=0,y=0)=>{globe.rotation.set(y,x,0);renderer.render(scene,camera);canvas.style.opacity=motion.matches?'0':'1'};
+      sceneEl.addEventListener('pointermove',e=>{const b=sceneEl.getBoundingClientRect();render(((e.clientX-b.left)/b.width-.5)*.27,((e.clientY-b.top)/b.height-.5)*.21)});
+      sceneEl.addEventListener('pointerleave',()=>render());motion.addEventListener('change',()=>render());render();
+    } catch { /* The Earth image remains available without WebGL. */ }
+  },{once:true});
+}
+</script>

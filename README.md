@@ -1,16 +1,9 @@
-# Shawn Preston — Portfolio Website
+# Shawn Preston’s geospatial portfolio
 
-Source for my personal site: **https://shawnatwsu.github.io** — a space-themed showcase of my
-climate, remote-sensing, and GIS work.
+An Astro static site featuring GIS applications, reproducible mapping workflows and climate research. Three.js adds a pointer-responsive treatment to the NEXUS project image. A static image is available on touch devices, with reduced motion, or without WebGL.
 
-## Pages
-- `index.md` — homepage (bio, education, experience, skills)
-- `portfolio.html` — maps, data viz, animations, dashboards, and a featured Cascadia banner
-- `cascadia.html` — dedicated showcase for [Cascadia](https://github.com/shawnatwsu/cascadia), my open-source compound multi-hazard engine
+Use Node 22.19 or newer. Run `npm ci`, then `npm run dev` for local development. Run `npm run build` to generate `dist/`, or `npm run preview` to check the production build.
 
-## Shared assets
-- `style.css` — the "cosmic" theme (animated starfield, glassmorphism cards, aurora gradients)
-- `cosmic.js` — injects the starfield, handles scroll-reveal animations and the figure lightbox
-- `assets/` — images, figures, PDFs, GIFs (`assets/cascadia/` holds the Cascadia example outputs)
+Project descriptions live in `src/projects.js`. The original full-resolution figures and reports are in `public/assets/`. Display previews are in `public/media/`.
 
-Contact: [shawnxpreston@gmail.com](mailto:shawnxpreston@gmail.com)
+GitHub Actions builds and publishes the site when main changes. GitHub Pages uses the GitHub Actions publishing source.

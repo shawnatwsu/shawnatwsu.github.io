@@ -1,0 +1,17 @@
+---
+import '../style.css';
+const {title,description='GIS development, hazard mapping and climate research by Shawn Preston.',active=''}=Astro.props;
+const nav=[['Projects','/#projects'],['GIS & automation','/portfolio.html'],['Research','/research.html'],['About','/about.html'],['Contact','/#contact']];
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{title} · Shawn Preston</title><meta name="description" content={description}/><meta name="theme-color" content="#091419"/><link rel="canonical" href={new URL(Astro.url.pathname,Astro.site)}/></head>
+<body><a class="skip" href="#main">Skip to content</a><header><div class="wrap bar"><a class="brand" href="/"><span class="mark" aria-hidden="true">◈</span> Shawn Preston</a><button id="menu" aria-expanded="false" aria-controls="nav" hidden>Menu</button><nav id="nav" aria-label="Primary">{nav.map(([label,url])=><a href={url} aria-current={active===label?'page':undefined}>{label}</a>)}</nav></div></header>
+<main id="main"><slot/></main><footer id="contact"><div class="wrap foot"><div><small>CONTACT</small><h2>Get in touch.</h2><a href="mailto:shawnxpreston@gmail.com">shawnxpreston@gmail.com ↗</a></div><div><a href="https://github.com/shawnatwsu">GitHub ↗</a><a href="https://linkedin.com/in/shawnxprestonms">LinkedIn ↗</a><a href="#main">Back to top ↑</a></div></div></footer>
+<script>
+const menu=document.querySelector<HTMLButtonElement>('#menu')!;
+const nav=document.querySelector('#nav')!;
+menu.hidden=false;
+const toggle=(open:boolean)=>{menu.setAttribute('aria-expanded',String(open));nav.classList.toggle('open',open)};
+menu.addEventListener('click',()=>toggle(menu.getAttribute('aria-expanded')==='false'));
+nav.addEventListener('click',()=>toggle(false));
+document.addEventListener('keydown',e=>{if(e.key==='Escape' && menu.getAttribute('aria-expanded')==='true'){toggle(false);menu.focus()}});
+</script></body></html>
